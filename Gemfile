@@ -47,3 +47,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'jquery-ui-rails'
 
+gem 'bootstrap-sass'
+
+group :production do
+  gem 'rails_12factor'
+end

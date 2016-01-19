@@ -1249,3 +1249,546 @@ Processing by MapsController#index as HTML
   Rendered maps/_style.erb (0.5ms)
   Rendered maps/index.html.erb (2.5ms)
 Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 20:51:24 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (3.0ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 20:51:32 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_style.erb (0.5ms)
+  Rendered maps/index.html.erb (2.0ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 20:56:53 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_style.erb (1.0ms)
+  Rendered maps/index.html.erb (3.0ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 20:57:44 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_style.erb (1.0ms)
+  Rendered maps/index.html.erb (3.0ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 20:58:14 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (2.0ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 20:58:32 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (2.0ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 20:58:59 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (3.0ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 20:59:18 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (2.0ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:02:08 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (2.0ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:02:29 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_style.erb (1.0ms)
+  Rendered maps/index.html.erb (2.0ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:02:55 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_style.erb (1.0ms)
+  Rendered maps/index.html.erb (3.0ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:03:13 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_style.erb (1.0ms)
+  Rendered maps/index.html.erb (3.0ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:05:52 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (2.0ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:06:13 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.5ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (2.0ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:07:02 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (2.5ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:07:24 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (2.5ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:07:47 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.5ms)
+  Rendered maps/_style.erb (0.5ms)
+  Rendered maps/index.html.erb (3.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:08:32 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (2.0ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:09:02 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (3.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:09:14 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (2.5ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:09:57 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_style.erb (1.0ms)
+  Rendered maps/index.html.erb (3.0ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:10:23 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (3.0ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:13:47 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (437.3ms)
+  Rendered maps/index.html.erb (438.3ms)
+Completed 500 Internal Server Error in 441ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'jquery.ui.all' with type 'application/javascript'):
+    1: <script src="https://maps.googleapis.com/maps/api/js"></script>
+    2: <%= javascript_include_tag "jquery" %>
+    3: <script>
+    4: 
+    5:   function initialize() {
+  app/assets/javascripts/application.js:17
+  app/views/maps/_js.erb:2:in `_app_views_maps__js_erb___173547366_51187956'
+  app/views/maps/index.html.erb:12:in `_app_views_maps_index_html_erb___282873348_52360980'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (106.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (38.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (98.1ms)
+
+
+Started PUT "/console/repl_sessions/324be0f561499958252551c7904a2cf1" for ::1 at 2016-01-19 21:14:21 +0300
+
+
+Started GET "/" for ::1 at 2016-01-19 21:17:41 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (9.0ms)
+  Rendered maps/index.html.erb (10.0ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'jquery.ui.all' with type 'application/javascript'):
+    1: <script src="https://maps.googleapis.com/maps/api/js"></script>
+    2: <%= javascript_include_tag "application" %>
+    3: <script>
+    4: 
+    5:   function initialize() {
+  app/assets/javascripts/application.js:17
+  app/views/maps/_js.erb:2:in `_app_views_maps__js_erb___173547366_80027904'
+  app/views/maps/index.html.erb:12:in `_app_views_maps_index_html_erb___282873348_52360980'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (27.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (56.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:18:37 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (107.1ms)
+  Rendered maps/index.html.erb (107.1ms)
+Completed 500 Internal Server Error in 110ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'jquery.ui.all' with type 'application/javascript'):
+    1: <script src="https://maps.googleapis.com/maps/api/js"></script>
+    2: <%= javascript_include_tag "application" %>
+    3: <script>
+    4: 
+    5:   function initialize() {
+  app/assets/javascripts/application.js:14
+  app/views/maps/_js.erb:2:in `_app_views_maps__js_erb___173547366_80027904'
+  app/views/maps/index.html.erb:12:in `_app_views_maps_index_html_erb___282873348_52360980'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (25.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (55.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:25:28 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (8.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (11.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:25:57 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (4.0ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:32:17 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (36.0ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:33:07 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (4.0ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:35:11 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.5ms)
+  Rendered maps/_style.erb (0.5ms)
+  Rendered maps/index.html.erb (4.0ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:35:22 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (1.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (4.0ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:35:32 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (4.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:35:41 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (4.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:36:15 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (4.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:37:05 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (6.0ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:37:23 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (1.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (3.0ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:37:35 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (3.0ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:37:40 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (1.0ms)
+  Rendered maps/_style.erb (1.0ms)
+  Rendered maps/index.html.erb (3.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:37:43 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.0ms)
+  Rendered maps/_style.erb (0.5ms)
+  Rendered maps/index.html.erb (3.5ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:37:48 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.0ms)
+  Rendered maps/_style.erb (0.5ms)
+  Rendered maps/index.html.erb (3.5ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:37:53 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.0ms)
+  Rendered maps/_style.erb (0.5ms)
+  Rendered maps/index.html.erb (3.5ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:37:58 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (4.0ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:38:20 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.5ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (5.0ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:38:36 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.5ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (4.5ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:46:48 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (7.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (64.0ms)
+Completed 200 OK in 105ms (Views: 89.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:49:32 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (4.0ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 21:55:09 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.5ms)
+  Rendered maps/_jquery.erb (7.0ms)
+  Rendered maps/_style.erb (0.5ms)
+  Rendered maps/index.html.erb (15.0ms)
+Completed 200 OK in 36ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 22:00:23 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (4.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 22:00:34 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (3.5ms)
+Completed 200 OK in 6ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-19 22:05:41 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.0ms)
+  Rendered maps/_bootstrap.min.erb (1.0ms)
+  Rendered maps/_bootstrap.min.css.erb (4.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (16.0ms)
+Completed 200 OK in 19ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bootstrap.min.css.map" for ::1 at 2016-01-19 22:05:41 +0300
+
+ActionController::RoutingError (No route matches [GET] "/bootstrap.min.css.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (80.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (230.2ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (51.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (142.1ms)
