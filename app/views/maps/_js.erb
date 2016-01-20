@@ -1,6 +1,8 @@
 <script src="https://maps.googleapis.com/maps/api/js"></script>
 
 <script>
+  window.markers =[];
+  window.map;
 
   function initialize() {
     var mapCanvas = document.getElementById('map');
@@ -9,16 +11,27 @@
       zoom: 10,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
-    var map = new google.maps.Map(mapCanvas, mapOptions);
-    var myLatlng = new google.maps.LatLng(45,39);
-    var marker = new google.maps.Marker({
-      position: myLatlng,
-      title:"Hello World!"
-    });
-    marker.setMap(map);
+    map = new google.maps.Map(mapCanvas, mapOptions);
+    addmarkers();
+    
   }
   google.maps.event.addDomListener(window, 'load', initialize);
 
+
+  function addmarkers() {
+    for (var i = 0; i <= 100; i++) {
+      var myLatlng = new google.maps.LatLng((Math.random() - 0.5)+45,(Math.random() - 0.5) + 39);
+      var marker = new google.maps.Marker({
+        position: myLatlng,
+        title:"Hello World!",
+        map : map
+      });
+      // console.log(marker);
+      markers.push(marker);
+    };
+    var markerCluster = new MarkerClusterer(map, markers);
+
+  }
 
 </script>
 
