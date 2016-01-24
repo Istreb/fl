@@ -3,6 +3,10 @@
 class MapsController < ApplicationController
   def index
     @title="Home"
+  end
+
+  def places
     @result = Map.get_places()
+    render json: @result
   end
 end

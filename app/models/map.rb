@@ -4,6 +4,6 @@ class Map < ActiveRecord::Base
 	def self.get_places
 		sql = """ select * from places """
 		result = Map.connection.select_all(sql)
-		p result
+		return result
 	end
 end

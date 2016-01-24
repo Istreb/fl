@@ -20,19 +20,28 @@
 
 
   function addmarkers() {
-    for (var i = 0; i <= 1000; i++) {
-      var myLatlng = new google.maps.LatLng((Math.random() - 0.5)+45,(Math.random() - 0.5) + 39);
-      var marker = new google.maps.Marker({
-        position: myLatlng,
-        title:"Hello World!",
-        map : map
-      });
-      // console.log(marker);
-      markers.push(marker);
-      google.maps.event.addListener(markers[markers.length-1], 'click', showMarkerInfo);
-    };
-    var markerCluster = new MarkerClusterer(map, markers);
-
+    $.ajax(
+    {
+      type: "GET",
+      dataType: 'json',
+      url: 'places',
+      success: function (data, textStatus, jqXHR) {  
+        for (var i = 0; i < data.length; i++) {
+          var myLatlng = new google.maps.LatLng(data[i].latitude,data[i].longitude);
+          var marker = new google.maps.Marker({
+            position: myLatlng,
+            title:data[i].name,
+            map : map
+          });
+          markers.push(marker);
+          google.maps.event.addListener(markers[markers.length-1], 'click', showMarkerInfo);
+        };
+        var markerCluster = new MarkerClusterer(map, markers);
+      },
+      error: function (jqXHR, textStatus, errorThrown) {
+        document.innerHTML = "Ошибка! Нет данных или проблемы с соединением: "+textStatus;
+      }
+    });
   }
 
   function showMarkerInfo(event) {

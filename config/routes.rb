@@ -5,6 +5,17 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'maps#index'
+  # match '/places', to: 'maps#places'
+  # match 'places' => 'maps#places', :via => [:get]#, :as => 'places_show'
+  # resources :maps, path: 'places'
+
+  # resources :maps, path: 'maps' do
+  #   collection do
+  #     get 'places'
+  #   end
+  # end
+
+  get '/places' => 'maps#places'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
