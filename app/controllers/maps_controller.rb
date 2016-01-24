@@ -3,5 +3,6 @@
 class MapsController < ApplicationController
   def index
     @title="Home"
+    @result = Map.get_places()
   end
 end

@@ -4258,3 +4258,327 @@ ActionController::RoutingError (No route matches [GET] "/bootstrap.min.css.map")
   Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
   Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
   Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (58.1ms)
+
+
+Started GET "/" for ::1 at 2016-01-20 22:04:11 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_charts.erb (0.0ms)
+  Rendered maps/_js.erb (1.0ms)
+  Rendered maps/_jquery.erb (8.0ms)
+  Rendered maps/_bootstrap.min.erb (2.0ms)
+  Rendered maps/_bootstrap.min.css.erb (3.0ms)
+  Rendered maps/_markerclusterer.js.erb (1.0ms)
+  Rendered maps/_highcharts.js.erb (4.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (179.1ms)
+Completed 200 OK in 232ms (Views: 216.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-20 22:07:22 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_charts.erb (0.0ms)
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (1.0ms)
+  Rendered maps/_bootstrap.min.erb (0.0ms)
+  Rendered maps/_bootstrap.min.css.erb (0.0ms)
+  Rendered maps/_markerclusterer.js.erb (0.0ms)
+  Rendered maps/_highcharts.js.erb (1.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (13.0ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-20 22:08:18 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_charts.erb (0.0ms)
+  Rendered maps/_js.erb (1.0ms)
+  Rendered maps/_jquery.erb (1.0ms)
+  Rendered maps/_bootstrap.min.erb (0.0ms)
+  Rendered maps/_bootstrap.min.css.erb (0.0ms)
+  Rendered maps/_markerclusterer.js.erb (1.0ms)
+  Rendered maps/_highcharts.js.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (13.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-21 20:34:06 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_charts.erb (0.0ms)
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (11.0ms)
+  Rendered maps/_bootstrap.min.erb (1.0ms)
+  Rendered maps/_bootstrap.min.css.erb (3.0ms)
+  Rendered maps/_markerclusterer.js.erb (1.0ms)
+  Rendered maps/_highcharts.js.erb (4.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (215.1ms)
+Completed 200 OK in 306ms (Views: 281.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-21 21:24:53 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_charts.erb (0.0ms)
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.0ms)
+  Rendered maps/_bootstrap.min.erb (0.0ms)
+  Rendered maps/_bootstrap.min.css.erb (0.0ms)
+  Rendered maps/_markerclusterer.js.erb (0.0ms)
+  Rendered maps/_highcharts.js.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (13.0ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-23 16:27:37 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_charts.erb (0.0ms)
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (1.0ms)
+  Rendered maps/_bootstrap.min.erb (0.0ms)
+  Rendered maps/_bootstrap.min.css.erb (0.0ms)
+  Rendered maps/_markerclusterer.js.erb (0.0ms)
+  Rendered maps/_highcharts.js.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (307.2ms)
+Completed 200 OK in 364ms (Views: 364.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-24 14:24:25 +0300
+Processing by MapsController#index as HTML
+Completed 500 Internal Server Error in 824ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `get_places' for Map(Table doesn't exist):Class):
+  app/controllers/maps_controller.rb:6:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (38.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (126.1ms)
+
+
+Started GET "/" for ::1 at 2016-01-24 14:26:03 +0300
+Processing by MapsController#index as HTML
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `get_places' for Map(Table doesn't exist):Class):
+  app/controllers/maps_controller.rb:6:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (39.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (25.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (62.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-24 14:26:51 +0300
+Processing by MapsController#index as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `get_places' for Map(Table doesn't exist):Class):
+  app/controllers/maps_controller.rb:6:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (24.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (53.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-24 14:28:00 +0300
+Processing by MapsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `get_places' for Map(Table doesn't exist):Class):
+  app/controllers/maps_controller.rb:6:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (25.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (52.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-24 14:29:02 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_charts.erb (0.0ms)
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (8.0ms)
+  Rendered maps/_bootstrap.min.erb (1.0ms)
+  Rendered maps/_bootstrap.min.css.erb (3.0ms)
+  Rendered maps/_markerclusterer.js.erb (1.0ms)
+  Rendered maps/_highcharts.js.erb (3.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (197.1ms)
+Completed 200 OK in 259ms (Views: 258.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-24 14:29:14 +0300
+Processing by MapsController#index as HTML
+  [1m[36m (1.0ms)[0m  [1m select * from places [0m
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.0ms)
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: places:  select * from places ):
+  app/models/map.rb:6:in `get_places'
+  app/controllers/maps_controller.rb:6:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (23.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (51.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-24 14:29:59 +0300
+Processing by MapsController#index as HTML
+  [1m[35m (0.0ms)[0m   select 1 
+  Rendered maps/_charts.erb (0.0ms)
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.0ms)
+  Rendered maps/_bootstrap.min.erb (0.0ms)
+  Rendered maps/_bootstrap.min.css.erb (0.0ms)
+  Rendered maps/_markerclusterer.js.erb (0.0ms)
+  Rendered maps/_highcharts.js.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (10.0ms)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-24 14:30:19 +0300
+Processing by MapsController#index as HTML
+  [1m[36m (0.0ms)[0m  [1m select 1 [0m
+  Rendered maps/_charts.erb (0.0ms)
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.0ms)
+  Rendered maps/_bootstrap.min.erb (0.0ms)
+  Rendered maps/_bootstrap.min.css.erb (0.0ms)
+  Rendered maps/_markerclusterer.js.erb (0.0ms)
+  Rendered maps/_highcharts.js.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (10.0ms)
+Completed 200 OK in 22ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-24 14:32:17 +0300
+Processing by MapsController#index as HTML
+  [1m[35m (0.0ms)[0m   SELECT name FROM sqlite_master WHERE type='table' 
+  Rendered maps/_charts.erb (0.0ms)
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.0ms)
+  Rendered maps/_bootstrap.min.erb (0.0ms)
+  Rendered maps/_bootstrap.min.css.erb (0.0ms)
+  Rendered maps/_markerclusterer.js.erb (0.0ms)
+  Rendered maps/_highcharts.js.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (11.0ms)
+Completed 200 OK in 20ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-24 14:33:34 +0300
+Processing by MapsController#index as HTML
+  [1m[36m (2.0ms)[0m  [1m SELECT name FROM sqlite_master WHERE type='table' [0m
+  Rendered maps/_charts.erb (0.0ms)
+  Rendered maps/_js.erb (1.0ms)
+  Rendered maps/_jquery.erb (7.0ms)
+  Rendered maps/_bootstrap.min.erb (1.0ms)
+  Rendered maps/_bootstrap.min.css.erb (3.0ms)
+  Rendered maps/_markerclusterer.js.erb (1.0ms)
+  Rendered maps/_highcharts.js.erb (3.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (29.0ms)
+Completed 200 OK in 82ms (Views: 41.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-24 14:36:44 +0300
+Processing by MapsController#index as HTML
+  [1m[35m (0.0ms)[0m   SELECT name FROM sqlite_master WHERE type='table' 
+  Rendered maps/_charts.erb (0.0ms)
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (0.0ms)
+  Rendered maps/_bootstrap.min.erb (0.0ms)
+  Rendered maps/_bootstrap.min.css.erb (1.0ms)
+  Rendered maps/_markerclusterer.js.erb (0.0ms)
+  Rendered maps/_highcharts.js.erb (0.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (11.0ms)
+Completed 200 OK in 18ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-24 14:37:06 +0300
+Processing by MapsController#index as HTML
+  [1m[36m (1.0ms)[0m  [1m select * from places [0m
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.0ms)
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: places:  select * from places ):
+  app/models/map.rb:6:in `get_places'
+  app/controllers/maps_controller.rb:6:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (25.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (53.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-24 14:39:43 +0300
+Processing by MapsController#index as HTML
+  [1m[36m (2.0ms)[0m  [1m select * from places [0m
+  Rendered maps/_charts.erb (0.0ms)
+  Rendered maps/_js.erb (0.0ms)
+  Rendered maps/_jquery.erb (7.0ms)
+  Rendered maps/_bootstrap.min.erb (2.0ms)
+  Rendered maps/_bootstrap.min.css.erb (3.0ms)
+  Rendered maps/_markerclusterer.js.erb (0.0ms)
+  Rendered maps/_highcharts.js.erb (3.0ms)
+  Rendered maps/_style.erb (0.0ms)
+  Rendered maps/index.html.erb (31.0ms)
+Completed 200 OK in 85ms (Views: 43.0ms | ActiveRecord: 2.0ms)
