@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'maps#index'
+  root 'welcome#index'
   # match '/places', to: 'maps#places'
   # match 'places' => 'maps#places', :via => [:get]#, :as => 'places_show'
   # resources :maps, path: 'places'
@@ -15,7 +15,9 @@ Rails.application.routes.draw do
   #   end
   # end
 
+  get '/map' => 'maps#index'
   get '/places' => 'maps#places'
+  get '/add_fishing' => 'add_fishing#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

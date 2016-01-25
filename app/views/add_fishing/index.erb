@@ -1,0 +1,18 @@
+Новая рыбалка
+<form id="form_data" name="form_data">
+	<table>
+		<tr>
+			<td>
+				<%= text_field "place", "date_from", "size" => 20 %>
+			</td>
+		</tr>
+			<td>
+				<%= text_area "description", "body", "cols" => 20, "rows" => 40%>
+			</td>
+		</tr>
+			<td>
+				<%= check_box("puppy", "gooddog", {}, "yes", "no") %>
+			</td>
+		</tr>
+	</table>
+</form>
