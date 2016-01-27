@@ -1,4 +1,3 @@
-<script>
 /*
  Highcharts JS v4.1.8 (2015-08-20)
 
@@ -326,4 +325,3 @@ this.plotY)-a,a*2,a*2)}});r(R.prototype,{onMouseOver:function(){var a=this.chart
 c=this.graph,d=b.states,e=b.lineWidth,b=0,a=a||"";if(this.state!==a&&(this.state=a,!(d[a]&&d[a].enabled===!1)&&(a&&(e=d[a].lineWidth||e+(d[a].lineWidthPlus||0)),c&&!c.dashstyle))){a={"stroke-width":e};for(c.attr(a);this["zoneGraph"+b];)this["zoneGraph"+b].attr(a),b+=1}},setVisible:function(a,b){var c=this,d=c.chart,e=c.legendItem,f,g=d.options.chart.ignoreHiddenSeries,h=c.visible;f=(c.visible=a=c.userOptions.visible=a===v?!h:a)?"show":"hide";o(["group","dataLabelsGroup","markerGroup","tracker"],function(a){if(c[a])c[a][f]()});
 if(d.hoverSeries===c||(d.hoverPoint&&d.hoverPoint.series)===c)c.onMouseOut();e&&d.legend.colorizeItem(c,a);c.isDirty=!0;c.options.stacking&&o(d.series,function(a){if(a.options.stacking&&a.visible)a.isDirty=!0});o(c.linkedSeries,function(b){b.setVisible(a,!1)});if(g)d.isDirtyBox=!0;b!==!1&&d.redraw();I(c,f)},show:function(){this.setVisible(!0)},hide:function(){this.setVisible(!1)},select:function(a){this.selected=a=a===v?!this.selected:a;if(this.checkbox)this.checkbox.checked=a;I(this,a?"select":"unselect")},
 drawTracker:U.drawTrackerGraph});r(B,{Color:na,Point:Ea,Tick:Ra,Renderer:Za,SVGElement:P,SVGRenderer:ua,arrayMin:Na,arrayMax:Ca,charts:Y,dateFormat:Ma,error:la,format:Ha,pathAnim:xb,getOptions:function(){return S},hasBidiBug:Nb,isTouchDevice:Jb,setOptions:function(a){S=A(!0,S,a);Cb();return S},addEvent:H,removeEvent:Z,createElement:$,discardElement:Pa,css:L,each:o,map:Ta,merge:A,splat:ra,extendClass:ka,pInt:F,svg:ca,canvas:fa,vml:!ca&&!fa,product:"Highcharts",version:"4.1.8"})})();
-</script>

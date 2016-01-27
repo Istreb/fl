@@ -18,6 +18,7 @@ Rails.application.routes.draw do
   get '/map' => 'maps#index'
   get '/places' => 'maps#places'
   get '/add_fishing' => 'add_fishing#index'
+  get '/fishings' => 'fishings#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
