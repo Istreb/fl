@@ -1,13 +1,18 @@
 <html>
   <head>
-    <%= stylesheet_link_tag 'bootstrap.min' %>
+  <%= stylesheet_link_tag 'bootstrap.min' %>
+  <%= stylesheet_link_tag 'fl' %>
 	<%= javascript_include_tag 'jquery' %>
 	<%= javascript_include_tag 'bootstrap.min' %>
 	<%= javascript_include_tag 'highcharts' %>
 	<%= javascript_include_tag 'markerclusterer' %>
   </head>
   <body>
-  	test header
-    <%= yield %>
+    <div class="header">
+    test header <br>
+    </div>
+    <div id="main">
+      <%= yield %>
+    </div>
   </body>
 </html>

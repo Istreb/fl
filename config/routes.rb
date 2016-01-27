@@ -16,7 +16,8 @@ Rails.application.routes.draw do
   # end
 
   get '/map' => 'maps#index'
-  get '/places' => 'maps#places'
+  get '/get_places' => 'maps#get_places'
+  get '/get_fishings' => 'maps#get_fishings'
   get '/add_fishing' => 'add_fishing#index'
   get '/fishings' => 'fishings#index'
 

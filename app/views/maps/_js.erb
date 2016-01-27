@@ -24,7 +24,7 @@
     {
       type: "GET",
       dataType: 'json',
-      url: 'places',
+      url: 'get_places',
       success: function (data, textStatus, jqXHR) {  
         for (var i = 0; i < data.length; i++) {
           var myLatlng = new google.maps.LatLng(data[i].latitude,data[i].longitude);

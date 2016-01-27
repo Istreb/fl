@@ -5,8 +5,13 @@ class MapsController < ApplicationController
     @title="Home"
   end
 
-  def places
+  def get_places
     @result = Map.get_places()
+    render json: @result
+  end
+
+  def get_fishings
+  	@result = Map.get_fishings()
     render json: @result
   end
 end
