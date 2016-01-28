@@ -2,17 +2,21 @@
 <form id="form_data" name="form_data">
 	<table>
 		<tr>
-			<td>
-				<%= text_field "place", "date_from", "size" => 20 %>
-			</td>
+			<td> Начало:</td><td><input type="text" id="date_from"></td>
+		</tr>
+			<td>Конец:</td> <td> <input type="text" id="date_to"></td>
 		</tr>
 			<td>
-				<%= text_area "description", "body", "cols" => 20, "rows" => 40%>
-			</td>
-		</tr>
-			<td>
-				<%= check_box("puppy", "gooddog", {}, "yes", "no") %>
+				<input type="text" id="places">
 			</td>
 		</tr>
 	</table>
+	<select multiple data-role="tagsinput" id='fishes'></select>
 </form>
+<script>
+	$('#date_from').datepicker({ format: "dd.mm.yyyy" });  
+	$('#date_to').datepicker({ format: "dd.mm.yyyy" }); 
+	$('#places').tagsinput({
+	  tagClass: 'big'
+	}); 
+</script>
