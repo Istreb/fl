@@ -2,21 +2,82 @@
 <form id="form_data" name="form_data">
 	<table>
 		<tr>
-			<td> Начало:</td><td><input type="text" id="date_from"></td>
+			<td colspan=2>
+				<div class="input-group input-daterange">
+				    <span class="input-group-addon">c</span><input type="text" class="form-control">
+				    <span class="input-group-addon">по</span>
+				    <input type="text" class="form-control">
+				</div>
+			</td>
 		</tr>
-			<td>Конец:</td> <td> <input type="text" id="date_to"></td>
 		</tr>
+			<td>Итого вес:</td> <td> <input type="text" id="total_weight"></td>
+		</tr>
+		<tr>
 			<td>
-				<input type="text" id="places">
+				рыбы: 
+			</td>
+			<td>
+				<ul id="fishes"></ul>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				наживки: 
+			</td>
+			<td>
+				<ul id="baits"></ul>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				места: 
+			</td>
+			<td>
+				<ul id="places"></ul>
 			</td>
 		</tr>
 	</table>
-	<select multiple data-role="tagsinput" id='fishes'></select>
+
+
+
+	
+
+
 </form>
+
 <script>
-	$('#date_from').datepicker({ format: "dd.mm.yyyy" });  
-	$('#date_to').datepicker({ format: "dd.mm.yyyy" }); 
-	$('#places').tagsinput({
-	  tagClass: 'big'
-	}); 
+	get_uniq_fish_names('fishes');
+	get_uniq_fish_names('baits');
+	get_uniq_fish_names('places');
+
+	$('.input-daterange input').each(function() {
+	    $(this).datepicker({
+	    	format: "dd.mm.yyyy", 
+			orientation: "auto", 
+			autoclose: true
+	    });
+	});
+
+	function get_uniq_fish_names (name) {
+
+		$.ajax(
+	    {
+	      type: "GET",
+	      dataType: 'json',
+	      url: 'add_fishing/get?type='+name,
+	      success: function (data, textStatus, jqXHR) {  
+	      	returndata =[];
+	      	for (var i = 0; i < data.length; i++) {
+	      		returndata.push(data[i].name);
+	      	};
+      		$('#'+name).tagit({
+			    availableTags: returndata
+			});
+	      },
+	      error: function (jqXHR, textStatus, errorThrown) {
+	        document.innerHTML = "Ошибка! Нет данных или проблемы с соединением: "+textStatus;
+	      }
+	    });
+	}
 </script>

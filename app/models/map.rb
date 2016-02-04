@@ -33,5 +33,11 @@ class Map < ActiveRecord::Base
 		return result
 	end
 
+	def self.get_uniq(table)
+
+		sql = """ SELECT distinct name FROM """ + table
+		result = Map.connection.select_all(sql)
+		return result
+	end
 
 end
