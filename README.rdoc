@@ -26,3 +26,12 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+used libs:
+* Bootstrap v3.3.6 (http://getbootstrap.com)
+* Datepicker for Bootstrap v1.6.0-alpha (https://github.com/eternicode/bootstrap-datepicker)
+* Highcharts JS v4.1.8 (2015-08-20) (www.highcharts.com/)
+* jQuery JavaScript Library v2.2.0 (http://jquery.com/)
+* jQuery UI - v1.11.4 (http://jqueryui.com)
+* jQuery UI Tag-it! (http://aehlke.github.com/tag-it/)
+* MarkerClusterer for Google Maps v3 version 1.0 (https://github.com/googlemaps/js-marker-clusterer)
