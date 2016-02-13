@@ -20,9 +20,11 @@ Rails.application.routes.draw do
   get '/get_fishings' => 'maps#get_fishings'
   get '/fishings' => 'fishings#index'
   # get '/add_fishing' => 'add_fishing#index'
+  # post 'add_fishing' => 'add_fishing#add_fishing'
   resources :add_fishing, path: 'add_fishing' do
     collection do
       get 'get'
+      post 'add'
     end
   end
 

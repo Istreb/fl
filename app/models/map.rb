@@ -40,4 +40,10 @@ class Map < ActiveRecord::Base
 		return result
 	end
 
+	def self.add_fishing(params)
+		p params
+		p params
+		p params
+	end
+
 end

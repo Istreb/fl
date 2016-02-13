@@ -1,12 +1,12 @@
 Новая рыбалка
-<form id="form_data" name="form_data">
+<form id="form_data" name="form_data" action="/add_fishing" method="post">
 	<table>
 		<tr>
 			<td colspan=2>
 				<div class="input-group input-daterange">
-				    <span class="input-group-addon">c</span><input type="text" class="form-control">
+				    <span class="input-group-addon">c</span><input type="text" class="form-control" id='start_date'>
 				    <span class="input-group-addon">по</span>
-				    <input type="text" class="form-control">
+				    <input type="text" class="form-control" id='end_date'>
 				</div>
 			</td>
 		</tr>
@@ -37,19 +37,15 @@
 				<ul id="places"></ul>
 			</td>
 		</tr>
+		<tr><td colspan=2><button class="btn btn-lg btn-primary btn-block" type="button" id='add_fishing'>Добавить</button></td></tr>
 	</table>
-
-
-
 	
-
-
 </form>
 
 <script>
-	get_uniq_fish_names('fishes');
-	get_uniq_fish_names('baits');
-	get_uniq_fish_names('places');
+	get_uniq_names('fishes');
+	get_uniq_names('baits');
+	get_uniq_names('places');
 
 	$('.input-daterange input').each(function() {
 	    $(this).datepicker({
@@ -59,7 +55,7 @@
 	    });
 	});
 
-	function get_uniq_fish_names (name) {
+	function get_uniq_names (name) {
 
 		$.ajax(
 	    {
@@ -80,4 +76,31 @@
 	      }
 	    });
 	}
+
+	$('#add_fishing').click(function() {
+		post_data = {
+			"start_date" : $('#start_date').val(),
+			"end_date" : $('#end_date').val(),
+			// "total_weight" : "1", //$('#total_weight').val(),
+			// "fishes" : "lesch", //$('#fishes').tagit("assignedTags"),
+			// "baits" : "oparysh", //$('#baits').tagit("assignedTags"),
+			// "places" : "kirpichny" //$('#places').tagit("assignedTags")			
+		};
+		// console.log(post_data);
+
+		$.ajax(
+	    {
+	      type: "POST",
+	      dataType: 'json',
+	      // contentType: 'application/json; charset=utf-8',
+	      data: JSON.stringify(post_data),
+	      url: 'add_fishing/add',
+	      success: function (data, textStatus, jqXHR) {  
+	      	console.log(data);
+	      },
+	      error: function (jqXHR, textStatus, errorThrown) {
+	        document.innerHTML = "Ошибка! Нет данных или проблемы с соединением: "+textStatus;
+	      }
+	    });
+	});
 </script>
