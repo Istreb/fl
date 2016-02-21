@@ -24,7 +24,8 @@ Rails.application.routes.draw do
   resources :add_fishing, path: 'add_fishing' do
     collection do
       get 'get'
-      post 'add'
+      post 'add_fishing'
+      post 'add_fishes'
     end
   end
 

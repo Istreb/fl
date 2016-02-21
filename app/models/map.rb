@@ -34,16 +34,55 @@ class Map < ActiveRecord::Base
 	end
 
 	def self.get_uniq(table)
-
 		sql = """ SELECT distinct name FROM """ + table
 		result = Map.connection.select_all(sql)
 		return result
 	end
 
 	def self.add_fishing(params)
-		p params
-		p params
-		p params
+		start_date = params['start_date'][6,4] + '-' + params['start_date'][3,2] + '-' + params['start_date'][0,2]
+		end_date = params['end_date'][6,4] + '-' + params['end_date'][3,2] + '-' + params['end_date'][0,2]
+
+		sql = """ 
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('" + start_date + "'), date('" + end_date + "'), " + params['total_weight'] + ")
+		"""
+		id = Map.connection.insert(sql)
+		return id
+	end
+
+	def self.add_fishes(params)
+		# проверить наличие рыб, если нет добавить
+		params['fishes'].each {|x|
+			sql = """ 
+				select 1 from fishes
+				where name = '" + x + "'"
+			result = Map.connection.select_all(sql)
+			if result.length() == 0
+				sql = """ 
+					insert into fishes(name)
+					values ('" + x + "')
+				"""
+				fish_id = Map.connection.insert(sql)
+			end
+
+			if (defined? fish_id)
+				sql = """ 
+					insert into catched_fishes (fish_id, fishing_id)
+					select id, '" + params['fishing_id'] + "' as fishing_id from fishes
+					where
+					name='" + x + "'
+				"""
+				Map.connection.insert(sql)
+			else
+				sql = """ 
+					insert into catched_fishes(fish_id, fishing_id) 
+					values ('" + fish_id + "','" + params['fishing_id'] + "')
+					"""
+				Map.connection.insert(sql)
+			end
+		}
+		return true
 	end
 
 end
