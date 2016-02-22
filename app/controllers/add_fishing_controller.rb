@@ -18,8 +18,9 @@ class AddFishingController < ApplicationController
 		render json: @result
 	end
 
-	def add_fishes
-		@result = Map.add_fishes(params)
+	def add_other
+		@result = Map.add_other(params)
 		render json: @result
 	end
+
 end

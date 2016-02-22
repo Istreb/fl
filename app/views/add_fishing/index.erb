@@ -84,7 +84,9 @@
 	      dataType: 'json',
 	      url: 'add_fishing/add_fishing?start_date='+$('#start_date').val() + '&end_date='+$('#end_date').val() + '&total_weight=' + $('#total_weight').val(),
 	      success: function (data, textStatus, jqXHR) {  
-	      	add_fishes(data);
+	      	add_other(data);
+	      	// add_other(data, 'baits');
+	      	// add_other(data, 'places');
 	      },
 	      error: function (jqXHR, textStatus, errorThrown) {
 	        document.innerHTML = "Ошибка! Нет данных или проблемы с соединением: "+textStatus;
@@ -92,13 +94,18 @@
 	    });
 	});
 
-	function add_fishes (id) {
+	function add_other (id) {
+		data = {};
+		data['fishes'] = $('#fishes').tagit("assignedTags");
+		data['baits'] = $('#baits').tagit("assignedTags");
+		data['places'] = $('#places').tagit("assignedTags");
+		data['fishing_id'] = id;
 		$.ajax(
 	    {
 	      type: "POST",
 	      dataType: 'json',
-	      data: {fishes:$('#fishes').tagit("assignedTags"), fishing_id:id},
-	      url: 'add_fishing/add_fishes',
+	      data: data,
+	      url: 'add_fishing/add_other',
 	      success: function (data, textStatus, jqXHR) {
 	      	console.log(data);
 	      },

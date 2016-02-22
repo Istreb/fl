@@ -25,7 +25,7 @@ Rails.application.routes.draw do
     collection do
       get 'get'
       post 'add_fishing'
-      post 'add_fishes'
+      post 'add_other'
     end
   end
 
