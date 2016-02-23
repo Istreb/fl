@@ -59,53 +59,55 @@ class Map < ActiveRecord::Base
 		types["places"] = ["visited_places", "place_id"]
 		order = 1
 		types.each {|key, value| 
-			params[key].each {|x|
-				sql = """ 
-					select 1 from "+ key +"
-					where name = '" + x + "'"
-				result = Map.connection.select_all(sql)
-				if result.length() == 0
+			if !params[key].nil?
+				params[key].each {|x|
 					sql = """ 
-						insert into "+ key +"(name)
-						values ('" + x + "')
-					"""
-					id = Map.connection.insert(sql)
-				end
+						select 1 from "+ key +"
+						where name = '" + x + "'"
+					result = Map.connection.select_all(sql)
+					if result.length() == 0
+						sql = """ 
+							insert into "+ key +"(name)
+							values ('" + x + "')
+						"""
+						id = Map.connection.insert(sql)
+					end
 
-				if (defined? id)
-					if key != 'places'
-						sql = """ 
-							insert into "+ value[0] +"("+ value[1] +", fishing_id)
-							select id, '" + params['fishing_id'] + "' as fishing_id from "+ key +"
-							where
-							name='" + x + "'
-						"""
-					else
-						sql = """ 
-							insert into "+ value[0] +"("+ value[1] +", fishing_id, [order])
-							select id, '" + params['fishing_id'] + "' as fishing_id, '#{order}' as [order] from "+ key +"
-							where
-							name='" + x + "'
-						"""
-						order+=1
-					end
-					Map.connection.insert(sql)
-				else
-					if key != 'places'
-						sql = """ 
-							insert into "+ value[0] +"("+ value[1] +", fishing_id) 
-							values ('" + id + "','" + params['fishing_id'] + "')
+					if (defined? id)
+						if key != 'places'
+							sql = """ 
+								insert into "+ value[0] +"("+ value[1] +", fishing_id)
+								select id, '" + params['fishing_id'] + "' as fishing_id from "+ key +"
+								where
+								name='" + x + "'
 							"""
-					else
-						sql = """ 
-							insert into "+ value[0] +"("+ value[1] +", fishing_id, [order]) 
-							values ('" + id + "','" + params['fishing_id'] + "','#{order}')
+						else
+							sql = """ 
+								insert into "+ value[0] +"("+ value[1] +", fishing_id, [order])
+								select id, '" + params['fishing_id'] + "' as fishing_id, '#{order}' as [order] from "+ key +"
+								where
+								name='" + x + "'
 							"""
-						order+=1
+							order+=1
+						end
+						Map.connection.insert(sql)
+					else
+						if key != 'places'
+							sql = """ 
+								insert into "+ value[0] +"("+ value[1] +", fishing_id) 
+								values ('" + id + "','" + params['fishing_id'] + "')
+								"""
+						else
+							sql = """ 
+								insert into "+ value[0] +"("+ value[1] +", fishing_id, [order]) 
+								values ('" + id + "','" + params['fishing_id'] + "','#{order}')
+								"""
+							order+=1
+						end
+						Map.connection.insert(sql)
 					end
-					Map.connection.insert(sql)
-				end
-			}
+				}
+			end
 		}
 		return true
 	end

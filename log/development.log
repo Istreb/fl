@@ -31363,3 +31363,2851 @@ ActionController::RoutingError (No route matches [GET] "/assets/bootstrap-datepi
   Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
   Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
   Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (68.0ms)
+
+
+Started GET "/fishings" for ::1 at 2016-02-22 21:19:46 +0300
+Processing by FishingsController#index as HTML
+  Rendered fishings/_js.erb (1.0ms)
+  Rendered fishings/index.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 1013ms (Views: 986.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-02-22 21:19:48 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (40.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (101.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (189.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (36.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (79.1ms)
+
+
+Started GET "/assets/bootstrap-datepicker.min.css.map" for ::1 at 2016-02-22 21:19:48 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap-datepicker.min.css.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (54.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (33.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (81.1ms)
+
+
+Started GET "/get_fishings" for ::1 at 2016-02-22 21:19:49 +0300
+Processing by MapsController#get_fishings as JSON
+  [1m[36m (18.0ms)[0m  [1m 
+			select 
+				pp.name,
+				f.date_from,
+				f.date_to,
+				f.total_fishes,
+				f.total_weight,
+				pp.latitude,
+				pp.longitude,
+				pp.locality
+			from
+				fishings as f
+			left join
+				visited_places as p
+			on
+				f.id = p.fishing_id
+			left join
+				places as pp
+			on
+				p.place_id = pp.id
+		[0m
+Completed 200 OK in 227ms (Views: 0.0ms | ActiveRecord: 18.0ms)
+
+
+Started GET "/map" for ::1 at 2016-02-22 21:20:41 +0300
+Processing by MapsController#index as HTML
+  Rendered maps/_charts.erb (1.0ms)
+  Rendered maps/_js.erb (1.0ms)
+  Rendered maps/index.html.erb within layouts/application (76.1ms)
+Completed 200 OK in 153ms (Views: 152.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-02-22 21:20:42 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (57.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (39.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (78.1ms)
+
+
+Started GET "/assets/bootstrap-datepicker.min.css.map" for ::1 at 2016-02-22 21:20:42 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap-datepicker.min.css.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (60.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (41.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (80.1ms)
+
+
+Started GET "/get_places" for ::1 at 2016-02-22 21:20:42 +0300
+Processing by MapsController#get_places as JSON
+  [1m[35m (1.0ms)[0m   select * from places 
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/fishings" for ::1 at 2016-02-22 21:22:02 +0300
+Processing by FishingsController#index as HTML
+  Rendered fishings/_js.erb (0.0ms)
+  Rendered fishings/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_fishings" for ::1 at 2016-02-22 21:22:02 +0300
+Processing by MapsController#get_fishings as JSON
+  [1m[36m (1.0ms)[0m  [1m 
+			select 
+				pp.name,
+				f.date_from,
+				f.date_to,
+				f.total_fishes,
+				f.total_weight,
+				pp.latitude,
+				pp.longitude,
+				pp.locality
+			from
+				fishings as f
+			left join
+				visited_places as p
+			on
+				f.id = p.fishing_id
+			left join
+				places as pp
+			on
+				p.place_id = pp.id
+		[0m
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2016-02-23 20:15:50 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.erb within layouts/application (1.0ms)
+Completed 200 OK in 4859ms (Views: 4858.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/add_fishing" for ::1 at 2016-02-23 20:16:16 +0300
+Processing by AddFishingController#index as HTML
+  Rendered add_fishing/index.erb within layouts/application (1.0ms)
+Completed 200 OK in 106ms (Views: 105.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/add_fishing/get?type=fishes" for ::1 at 2016-02-23 20:16:16 +0300
+Processing by AddFishingController#get as JSON
+  Parameters: {"type"=>"fishes"}
+  [1m[35m (25.0ms)[0m   SELECT distinct name FROM fishes
+Completed 200 OK in 27ms (Views: 1.0ms | ActiveRecord: 25.0ms)
+
+
+Started GET "/add_fishing/get?type=baits" for ::1 at 2016-02-23 20:16:16 +0300
+Processing by AddFishingController#get as JSON
+  Parameters: {"type"=>"baits"}
+  [1m[36m (0.0ms)[0m  [1m SELECT distinct name FROM baits[0m
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/add_fishing/get?type=places" for ::1 at 2016-02-23 20:16:16 +0300
+Processing by AddFishingController#get as JSON
+  Parameters: {"type"=>"places"}
+  [1m[35m (0.0ms)[0m   SELECT distinct name FROM places
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=09.04.2008&end_date=09.04.2008&total_weight=0.3" for ::1 at 2016-02-23 20:21:43 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"09.04.2008", "end_date"=>"09.04.2008", "total_weight"=>"0.3"}
+  [1m[36m (276.2ms)[0m  [1m 
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-04-09'), date('2008-04-09'), 0.3)
+		[0m
+Completed 200 OK in 278ms (Views: 0.0ms | ActiveRecord: 276.2ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 20:21:44 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["судак", "щука"], "baits"=>["кукуруза", "червяк", "болтушка"], "places"=>["Золотой Сазан"], "fishing_id"=>"4"}
+  [1m[35m (0.0ms)[0m   
+					select 1 from fishes
+					where name = 'судак'
+  [1m[36m (160.1ms)[0m  [1m 
+							insert into catched_fishes(fish_id, fishing_id)
+							select id, '4' as fishing_id from fishes
+							where
+							name='судак'
+						[0m
+  [1m[35m (1.0ms)[0m   
+					select 1 from fishes
+					where name = 'щука'
+  [1m[36m (201.1ms)[0m  [1m 
+						insert into fishes(name)
+						values ('щука')
+					[0m
+  [1m[35m (296.2ms)[0m   
+							insert into catched_fishes(fish_id, fishing_id)
+							select id, '4' as fishing_id from fishes
+							where
+							name='щука'
+						
+  [1m[36m (1.0ms)[0m  [1m 
+					select 1 from baits
+					where name = 'кукуруза'[0m
+  [1m[35m (164.1ms)[0m   
+							insert into used_baits(bait_id, fishing_id)
+							select id, '4' as fishing_id from baits
+							where
+							name='кукуруза'
+						
+  [1m[36m (0.0ms)[0m  [1m 
+					select 1 from baits
+					where name = 'червяк'[0m
+  [1m[35m (154.1ms)[0m   
+							insert into used_baits(bait_id, fishing_id)
+							select id, '4' as fishing_id from baits
+							where
+							name='червяк'
+						
+  [1m[36m (0.0ms)[0m  [1m 
+					select 1 from baits
+					where name = 'болтушка'[0m
+  [1m[35m (176.1ms)[0m   
+						insert into baits(name)
+						values ('болтушка')
+					
+  [1m[36m (166.1ms)[0m  [1m 
+							insert into used_baits(bait_id, fishing_id)
+							select id, '4' as fishing_id from baits
+							where
+							name='болтушка'
+						[0m
+  [1m[35m (0.0ms)[0m   
+					select 1 from places
+					where name = 'Золотой Сазан'
+  [1m[36m (99.1ms)[0m  [1m 
+							insert into visited_places(place_id, fishing_id, [order])
+							select id, '4' as fishing_id, '1' as [order] from places
+							where
+							name='Золотой Сазан'
+						[0m
+Completed 200 OK in 1432ms (Views: 0.0ms | ActiveRecord: 1419.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-02-23 20:21:45 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (85.1ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (44.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (89.1ms)
+
+
+Started GET "/assets/bootstrap-datepicker.min.css.map" for ::1 at 2016-02-23 20:21:46 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap-datepicker.min.css.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (49.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (32.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (68.1ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=11.04.2008&end_date=11.04.2008&total_weight=2.1" for ::1 at 2016-02-23 20:22:48 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"11.04.2008", "end_date"=>"11.04.2008", "total_weight"=>"2.1"}
+  [1m[35m (107.1ms)[0m   
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-04-11'), date('2008-04-11'), 2.1)
+		
+Completed 200 OK in 108ms (Views: 0.0ms | ActiveRecord: 107.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 20:22:48 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["судак", "сазан"], "baits"=>["кукуруза", "червяк", "болтушка", "опарыш", "перловка"], "places"=>["Дачи"], "fishing_id"=>"5"}
+  [1m[36m (0.0ms)[0m  [1m 
+					select 1 from fishes
+					where name = 'судак'[0m
+  [1m[35m (100.1ms)[0m   
+							insert into catched_fishes(fish_id, fishing_id)
+							select id, '5' as fishing_id from fishes
+							where
+							name='судак'
+						
+  [1m[36m (1.0ms)[0m  [1m 
+					select 1 from fishes
+					where name = 'сазан'[0m
+  [1m[35m (111.1ms)[0m   
+							insert into catched_fishes(fish_id, fishing_id)
+							select id, '5' as fishing_id from fishes
+							where
+							name='сазан'
+						
+  [1m[36m (1.0ms)[0m  [1m 
+					select 1 from baits
+					where name = 'кукуруза'[0m
+  [1m[35m (118.1ms)[0m   
+							insert into used_baits(bait_id, fishing_id)
+							select id, '5' as fishing_id from baits
+							where
+							name='кукуруза'
+						
+  [1m[36m (0.0ms)[0m  [1m 
+					select 1 from baits
+					where name = 'червяк'[0m
+  [1m[35m (176.1ms)[0m   
+							insert into used_baits(bait_id, fishing_id)
+							select id, '5' as fishing_id from baits
+							where
+							name='червяк'
+						
+  [1m[36m (0.0ms)[0m  [1m 
+					select 1 from baits
+					where name = 'болтушка'[0m
+  [1m[35m (98.1ms)[0m   
+							insert into used_baits(bait_id, fishing_id)
+							select id, '5' as fishing_id from baits
+							where
+							name='болтушка'
+						
+  [1m[36m (1.0ms)[0m  [1m 
+					select 1 from baits
+					where name = 'опарыш'[0m
+  [1m[35m (108.1ms)[0m   
+							insert into used_baits(bait_id, fishing_id)
+							select id, '5' as fishing_id from baits
+							where
+							name='опарыш'
+						
+  [1m[36m (0.0ms)[0m  [1m 
+					select 1 from baits
+					where name = 'перловка'[0m
+  [1m[35m (231.2ms)[0m   
+							insert into used_baits(bait_id, fishing_id)
+							select id, '5' as fishing_id from baits
+							where
+							name='перловка'
+						
+  [1m[36m (0.0ms)[0m  [1m 
+					select 1 from places
+					where name = 'Дачи'[0m
+  [1m[35m (154.1ms)[0m   
+							insert into visited_places(place_id, fishing_id, [order])
+							select id, '5' as fishing_id, '1' as [order] from places
+							where
+							name='Дачи'
+						
+Completed 200 OK in 1114ms (Views: 0.0ms | ActiveRecord: 1099.8ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=15.04.2008&end_date=15.04.2008&total_weight=0.2" for ::1 at 2016-02-23 20:24:38 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"15.04.2008", "end_date"=>"15.04.2008", "total_weight"=>"0.2"}
+  [1m[36m (179.1ms)[0m  [1m 
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-04-15'), date('2008-04-15'), 0.2)
+		[0m
+Completed 200 OK in 179ms (Views: 0.0ms | ActiveRecord: 179.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 20:24:38 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["голавль", "красноперка", "густера"], "baits"=>["опарыш"], "places"=>["р.Читук", "оз.Читук"], "fishing_id"=>"6"}
+  [1m[35m (0.0ms)[0m   
+					select 1 from fishes
+					where name = 'голавль'
+  [1m[36m (133.1ms)[0m  [1m 
+						insert into fishes(name)
+						values ('голавль')
+					[0m
+  [1m[35m (121.1ms)[0m   
+							insert into catched_fishes(fish_id, fishing_id)
+							select id, '6' as fishing_id from fishes
+							where
+							name='голавль'
+						
+  [1m[36m (0.0ms)[0m  [1m 
+					select 1 from fishes
+					where name = 'красноперка'[0m
+  [1m[35m (108.1ms)[0m   
+						insert into fishes(name)
+						values ('красноперка')
+					
+  [1m[36m (200.1ms)[0m  [1m 
+							insert into catched_fishes(fish_id, fishing_id)
+							select id, '6' as fishing_id from fishes
+							where
+							name='красноперка'
+						[0m
+  [1m[35m (1.0ms)[0m   
+					select 1 from fishes
+					where name = 'густера'
+  [1m[36m (416.3ms)[0m  [1m 
+							insert into catched_fishes(fish_id, fishing_id)
+							select id, '6' as fishing_id from fishes
+							where
+							name='густера'
+						[0m
+  [1m[35m (1.0ms)[0m   
+					select 1 from baits
+					where name = 'опарыш'
+  [1m[36m (192.1ms)[0m  [1m 
+							insert into used_baits(bait_id, fishing_id)
+							select id, '6' as fishing_id from baits
+							where
+							name='опарыш'
+						[0m
+  [1m[35m (0.0ms)[0m   
+					select 1 from places
+					where name = 'р.Читук'
+  [1m[36m (168.1ms)[0m  [1m 
+							insert into visited_places(place_id, fishing_id, [order])
+							select id, '6' as fishing_id, '1' as [order] from places
+							where
+							name='р.Читук'
+						[0m
+  [1m[35m (0.0ms)[0m   
+					select 1 from places
+					where name = 'оз.Читук'
+  [1m[36m (134.1ms)[0m  [1m 
+							insert into visited_places(place_id, fishing_id, [order])
+							select id, '6' as fishing_id, '2' as [order] from places
+							where
+							name='оз.Читук'
+						[0m
+Completed 200 OK in 1492ms (Views: 0.0ms | ActiveRecord: 1475.0ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=18.04.2008&end_date=19.04.2008&total_weight=0.2" for ::1 at 2016-02-23 20:25:47 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"18.04.2008", "end_date"=>"19.04.2008", "total_weight"=>"0.2"}
+  [1m[35m (108.1ms)[0m   
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-04-18'), date('2008-04-19'), 0.2)
+		
+Completed 200 OK in 111ms (Views: 0.0ms | ActiveRecord: 108.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 20:25:47 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["голавль", "красноперка", "густера"], "baits"=>["опарыш", "кукуруза", "червяк", "перловка", "креветка"], "places"=>["оз.Читук"], "fishing_id"=>"7"}
+  [1m[36m (0.0ms)[0m  [1m 
+					select 1 from fishes
+					where name = 'голавль'[0m
+  [1m[35m (133.1ms)[0m   
+							insert into catched_fishes(fish_id, fishing_id)
+							select id, '7' as fishing_id from fishes
+							where
+							name='голавль'
+						
+  [1m[36m (0.0ms)[0m  [1m 
+					select 1 from fishes
+					where name = 'красноперка'[0m
+  [1m[35m (110.1ms)[0m   
+							insert into catched_fishes(fish_id, fishing_id)
+							select id, '7' as fishing_id from fishes
+							where
+							name='красноперка'
+						
+  [1m[36m (0.0ms)[0m  [1m 
+					select 1 from fishes
+					where name = 'густера'[0m
+  [1m[35m (120.1ms)[0m   
+							insert into catched_fishes(fish_id, fishing_id)
+							select id, '7' as fishing_id from fishes
+							where
+							name='густера'
+						
+  [1m[36m (0.0ms)[0m  [1m 
+					select 1 from baits
+					where name = 'опарыш'[0m
+  [1m[35m (109.1ms)[0m   
+							insert into used_baits(bait_id, fishing_id)
+							select id, '7' as fishing_id from baits
+							where
+							name='опарыш'
+						
+  [1m[36m (0.0ms)[0m  [1m 
+					select 1 from baits
+					where name = 'кукуруза'[0m
+  [1m[35m (163.1ms)[0m   
+							insert into used_baits(bait_id, fishing_id)
+							select id, '7' as fishing_id from baits
+							where
+							name='кукуруза'
+						
+  [1m[36m (0.0ms)[0m  [1m 
+					select 1 from baits
+					where name = 'червяк'[0m
+  [1m[35m (155.1ms)[0m   
+							insert into used_baits(bait_id, fishing_id)
+							select id, '7' as fishing_id from baits
+							where
+							name='червяк'
+						
+  [1m[36m (0.0ms)[0m  [1m 
+					select 1 from baits
+					where name = 'перловка'[0m
+  [1m[35m (86.1ms)[0m   
+							insert into used_baits(bait_id, fishing_id)
+							select id, '7' as fishing_id from baits
+							where
+							name='перловка'
+						
+  [1m[36m (0.0ms)[0m  [1m 
+					select 1 from baits
+					where name = 'креветка'[0m
+  [1m[35m (131.1ms)[0m   
+						insert into baits(name)
+						values ('креветка')
+					
+  [1m[36m (110.1ms)[0m  [1m 
+							insert into used_baits(bait_id, fishing_id)
+							select id, '7' as fishing_id from baits
+							where
+							name='креветка'
+						[0m
+  [1m[35m (0.0ms)[0m   
+					select 1 from places
+					where name = 'оз.Читук'
+  [1m[36m (120.1ms)[0m  [1m 
+							insert into visited_places(place_id, fishing_id, [order])
+							select id, '7' as fishing_id, '1' as [order] from places
+							where
+							name='оз.Читук'
+						[0m
+Completed 200 OK in 1259ms (Views: 1.0ms | ActiveRecord: 1237.8ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=23.04.2008&end_date=23.04.2008&total_weight=0.2" for ::1 at 2016-02-23 20:27:01 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"23.04.2008", "end_date"=>"23.04.2008", "total_weight"=>"0.2"}
+  [1m[35m (101.1ms)[0m   
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-04-23'), date('2008-04-23'), 0.2)
+		
+Completed 200 OK in 104ms (Views: 1.0ms | ActiveRecord: 101.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 20:27:01 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["черный амур", "карась"], "baits"=>["кукуруза"], "places"=>["Царина Поляна"], "fishing_id"=>"8"}
+  [1m[36m (0.0ms)[0m  [1m 
+					select 1 from fishes
+					where name = 'черный амур'[0m
+  [1m[35m (97.1ms)[0m   
+						insert into fishes(name)
+						values ('черный амур')
+					
+  [1m[36m (98.1ms)[0m  [1m 
+							insert into catched_fishes(fish_id, fishing_id)
+							select id, '8' as fishing_id from fishes
+							where
+							name='черный амур'
+						[0m
+  [1m[35m (1.0ms)[0m   
+					select 1 from fishes
+					where name = 'карась'
+  [1m[36m (154.1ms)[0m  [1m 
+							insert into catched_fishes(fish_id, fishing_id)
+							select id, '8' as fishing_id from fishes
+							where
+							name='карась'
+						[0m
+  [1m[35m (0.0ms)[0m   
+					select 1 from baits
+					where name = 'кукуруза'
+  [1m[36m (142.1ms)[0m  [1m 
+							insert into used_baits(bait_id, fishing_id)
+							select id, '8' as fishing_id from baits
+							where
+							name='кукуруза'
+						[0m
+  [1m[35m (1.0ms)[0m   
+					select 1 from places
+					where name = 'Царина Поляна'
+  [1m[36m (156.1ms)[0m  [1m 
+							insert into visited_places(place_id, fishing_id, [order])
+							select id, '8' as fishing_id, '1' as [order] from places
+							where
+							name='Царина Поляна'
+						[0m
+Completed 200 OK in 657ms (Views: 0.0ms | ActiveRecord: 649.5ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=06.05.2008&end_date=06.05.2008&total_weight=0.25" for ::1 at 2016-02-23 20:30:42 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"06.05.2008", "end_date"=>"06.05.2008", "total_weight"=>"0.25"}
+  [1m[35m (95.1ms)[0m   
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-05-06'), date('2008-05-06'), 0.25)
+		
+Completed 200 OK in 97ms (Views: 0.0ms | ActiveRecord: 95.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 20:30:42 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["щука"], "places"=>["р.Читук"], "fishing_id"=>"9"}
+  [1m[36m (0.0ms)[0m  [1m 
+					select 1 from fishes
+					where name = 'щука'[0m
+  [1m[35m (102.1ms)[0m   
+							insert into catched_fishes(fish_id, fishing_id)
+							select id, '9' as fishing_id from fishes
+							where
+							name='щука'
+						
+Completed 500 Internal Server Error in 105ms (ActiveRecord: 102.1ms)
+
+NoMethodError (undefined method `each' for nil:NilClass):
+  app/models/map.rb:62:in `block in add_other'
+  app/models/map.rb:61:in `each'
+  app/models/map.rb:61:in `add_other'
+  app/controllers/add_fishing_controller.rb:22:in `add_other'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (55.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (35.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (69.0ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=06.05.2008&end_date=06.05.2008&total_weight=0.25" for ::1 at 2016-02-23 20:33:30 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"06.05.2008", "end_date"=>"06.05.2008", "total_weight"=>"0.25"}
+  [1m[36m (88.1ms)[0m  [1m 
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-05-06'), date('2008-05-06'), 0.25)
+		[0m
+Completed 200 OK in 91ms (Views: 0.0ms | ActiveRecord: 88.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 20:33:30 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["щука"], "places"=>["р.Читук"], "fishing_id"=>"9"}
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'щука'
+  [1m[36m (261.2ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '9' as fishing_id from fishes
+								where
+								name='щука'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from places
+						where name = 'р.Читук'
+  [1m[36m (114.1ms)[0m  [1m 
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '9' as fishing_id, '1' as [order] from places
+								where
+								name='р.Читук'
+							[0m
+Completed 200 OK in 379ms (Views: 0.0ms | ActiveRecord: 375.3ms)
+
+
+Started GET "/add_fishing" for ::1 at 2016-02-23 20:41:13 +0300
+Processing by AddFishingController#index as HTML
+  Rendered add_fishing/index.erb within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-66fe84b79c6d5db31355296a8c9627d232721fe3ac3c31f3554ccc7e999279b6.css?body=1" for ::1 at 2016-02-23 20:41:13 +0300
+
+
+Started GET "/assets/jquery.tagit.self-e573623a64cf35084020aea583f9ec2daa57d25cac5d174e8c97ff95621a1142.css?body=1" for ::1 at 2016-02-23 20:41:13 +0300
+
+
+Started GET "/assets/fl.self-c90e8453af67bf4c9eed6a1b1e2aaa1befc91f388267b95f50f691e03e8f3f0d.css?body=1" for ::1 at 2016-02-23 20:41:13 +0300
+
+
+Started GET "/assets/bootstrap-datepicker.min.self-4831877483e7f8c8592a4a543d3dbd499f876426f7f421866dc30b7951893943.css?body=1" for ::1 at 2016-02-23 20:41:13 +0300
+
+
+Started GET "/assets/jquery.self-977e28a4e7fded7698789e394a585c6339d54c0ad1537f498a40d2800098a521.js?body=1" for ::1 at 2016-02-23 20:41:13 +0300
+
+
+Started GET "/assets/tagit.ui-zendesk.self-2bc7d21f673c97eeb92557e825ac22c645ef24bae30f37f2a012772055cf0046.css?body=1" for ::1 at 2016-02-23 20:41:13 +0300
+
+
+Started GET "/assets/jquery-ui.self-ef9b962e869a815adb51e633eb7d5cc5ddb8bdad94e97ad2461759d77273e9fa.js?body=1" for ::1 at 2016-02-23 20:41:13 +0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-02-23 20:41:13 +0300
+
+
+Started GET "/assets/highcharts.self-ead5b98746d5dbd7aba5f3d1e946d9766ddcc0b23a2912f9360c479048338bca.js?body=1" for ::1 at 2016-02-23 20:41:13 +0300
+
+
+Started GET "/assets/bootstrap-datepicker.min.self-b7e1a13a258bf1f53c0e918b49cbd00530c23411abfff6146327dd385db18ef2.js?body=1" for ::1 at 2016-02-23 20:41:13 +0300
+
+
+Started GET "/assets/markerclusterer.self-fac87e3236511fbd7248cdf227f29cf200d7c3957ed45c697764b0e5debfb764.js?body=1" for ::1 at 2016-02-23 20:41:13 +0300
+
+
+Started GET "/assets/tag-it.self-d8f8325065681c6b82a79e361af44ffad968ea7d305b5257c711018a2a0b7cac.js?body=1" for ::1 at 2016-02-23 20:41:13 +0300
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-02-23 20:41:13 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (52.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (43.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (88.1ms)
+
+
+Started GET "/assets/bootstrap-datepicker.min.css.map" for ::1 at 2016-02-23 20:41:13 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap-datepicker.min.css.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (49.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (31.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (69.0ms)
+
+
+Started GET "/add_fishing/get?type=fishes" for ::1 at 2016-02-23 20:41:14 +0300
+Processing by AddFishingController#get as JSON
+  Parameters: {"type"=>"fishes"}
+  [1m[35m (0.0ms)[0m   SELECT distinct name FROM fishes
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/add_fishing/get?type=baits" for ::1 at 2016-02-23 20:41:14 +0300
+Processing by AddFishingController#get as JSON
+  Parameters: {"type"=>"baits"}
+  [1m[36m (0.0ms)[0m  [1m SELECT distinct name FROM baits[0m
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/add_fishing/get?type=places" for ::1 at 2016-02-23 20:41:14 +0300
+Processing by AddFishingController#get as JSON
+  Parameters: {"type"=>"places"}
+  [1m[35m (1.0ms)[0m   SELECT distinct name FROM places
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=08.05.2008&end_date=09.05.2008&total_weight=2.7" for ::1 at 2016-02-23 20:42:43 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"08.05.2008", "end_date"=>"09.05.2008", "total_weight"=>"2.7"}
+  [1m[36m (111.1ms)[0m  [1m 
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-05-08'), date('2008-05-09'), 2.7)
+		[0m
+Completed 200 OK in 112ms (Views: 0.0ms | ActiveRecord: 111.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 20:42:43 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["окунь", "щука", "Тарань", "красноперка", "бычок", "лещик", "чехонь"], "baits"=>["червяк", "опарыш", "кукуруза"], "places"=>["Огородный"], "fishing_id"=>"10"}
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'окунь'
+  [1m[36m (97.1ms)[0m  [1m 
+							insert into fishes(name)
+							values ('окунь')
+						[0m
+  [1m[35m (168.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '10' as fishing_id from fishes
+								where
+								name='окунь'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'щука'[0m
+  [1m[35m (95.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '10' as fishing_id from fishes
+								where
+								name='щука'
+							
+  [1m[36m (1.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'Тарань'[0m
+  [1m[35m (121.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '10' as fishing_id from fishes
+								where
+								name='Тарань'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'красноперка'[0m
+  [1m[35m (142.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '10' as fishing_id from fishes
+								where
+								name='красноперка'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'бычок'[0m
+  [1m[35m (358.3ms)[0m   
+							insert into fishes(name)
+							values ('бычок')
+						
+  [1m[36m (94.1ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '10' as fishing_id from fishes
+								where
+								name='бычок'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'лещик'
+  [1m[36m (120.1ms)[0m  [1m 
+							insert into fishes(name)
+							values ('лещик')
+						[0m
+  [1m[35m (100.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '10' as fishing_id from fishes
+								where
+								name='лещик'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'чехонь'[0m
+  [1m[35m (389.3ms)[0m   
+							insert into fishes(name)
+							values ('чехонь')
+						
+  [1m[36m (107.1ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '10' as fishing_id from fishes
+								where
+								name='чехонь'
+							[0m
+  [1m[35m (1.0ms)[0m   
+						select 1 from baits
+						where name = 'червяк'
+  [1m[36m (210.1ms)[0m  [1m 
+								insert into used_baits(bait_id, fishing_id)
+								select id, '10' as fishing_id from baits
+								where
+								name='червяк'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from baits
+						where name = 'опарыш'
+  [1m[36m (97.1ms)[0m  [1m 
+								insert into used_baits(bait_id, fishing_id)
+								select id, '10' as fishing_id from baits
+								where
+								name='опарыш'
+							[0m
+  [1m[35m (1.0ms)[0m   
+						select 1 from baits
+						where name = 'кукуруза'
+  [1m[36m (121.1ms)[0m  [1m 
+								insert into used_baits(bait_id, fishing_id)
+								select id, '10' as fishing_id from baits
+								where
+								name='кукуруза'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from places
+						where name = 'Огородный'
+  [1m[36m (175.1ms)[0m  [1m 
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '10' as fishing_id, '1' as [order] from places
+								where
+								name='Огородный'
+							[0m
+Completed 200 OK in 2423ms (Views: 0.0ms | ActiveRecord: 2398.7ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=08.05.2008&end_date=09.05.2008&total_weight=2.7" for ::1 at 2016-02-23 20:43:34 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"08.05.2008", "end_date"=>"09.05.2008", "total_weight"=>"2.7"}
+  [1m[35m (120.1ms)[0m   
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-05-08'), date('2008-05-09'), 2.7)
+		
+Completed 200 OK in 122ms (Views: 1.0ms | ActiveRecord: 120.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 20:43:34 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["окунь", "щука", "Тарань", "красноперка", "бычок", "лещик", "чехонь"], "baits"=>["червяк", "опарыш", "кукуруза"], "places"=>["Огородный", "Садки", "Карлык"], "fishing_id"=>"10"}
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'окунь'[0m
+  [1m[35m (254.2ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '10' as fishing_id from fishes
+								where
+								name='окунь'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'щука'[0m
+  [1m[35m (142.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '10' as fishing_id from fishes
+								where
+								name='щука'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'Тарань'[0m
+  [1m[35m (120.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '10' as fishing_id from fishes
+								where
+								name='Тарань'
+							
+  [1m[36m (1.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'красноперка'[0m
+  [1m[35m (262.2ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '10' as fishing_id from fishes
+								where
+								name='красноперка'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'бычок'[0m
+  [1m[35m (281.2ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '10' as fishing_id from fishes
+								where
+								name='бычок'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'лещик'[0m
+  [1m[35m (296.2ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '10' as fishing_id from fishes
+								where
+								name='лещик'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'чехонь'[0m
+  [1m[35m (157.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '10' as fishing_id from fishes
+								where
+								name='чехонь'
+							
+  [1m[36m (1.0ms)[0m  [1m 
+						select 1 from baits
+						where name = 'червяк'[0m
+  [1m[35m (115.1ms)[0m   
+								insert into used_baits(bait_id, fishing_id)
+								select id, '10' as fishing_id from baits
+								where
+								name='червяк'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from baits
+						where name = 'опарыш'[0m
+  [1m[35m (121.1ms)[0m   
+								insert into used_baits(bait_id, fishing_id)
+								select id, '10' as fishing_id from baits
+								where
+								name='опарыш'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from baits
+						where name = 'кукуруза'[0m
+  [1m[35m (153.1ms)[0m   
+								insert into used_baits(bait_id, fishing_id)
+								select id, '10' as fishing_id from baits
+								where
+								name='кукуруза'
+							
+  [1m[36m (1.0ms)[0m  [1m 
+						select 1 from places
+						where name = 'Огородный'[0m
+  [1m[35m (98.1ms)[0m   
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '10' as fishing_id, '1' as [order] from places
+								where
+								name='Огородный'
+							
+  [1m[36m (1.0ms)[0m  [1m 
+						select 1 from places
+						where name = 'Садки'[0m
+  [1m[35m (122.1ms)[0m   
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '10' as fishing_id, '2' as [order] from places
+								where
+								name='Садки'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from places
+						where name = 'Карлык'[0m
+  [1m[35m (121.1ms)[0m   
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '10' as fishing_id, '3' as [order] from places
+								where
+								name='Карлык'
+							
+Completed 200 OK in 2269ms (Views: 0.0ms | ActiveRecord: 2247.6ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=15.05.2008&end_date=16.05.2008&total_weight=2" for ::1 at 2016-02-23 20:45:04 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"15.05.2008", "end_date"=>"16.05.2008", "total_weight"=>"2"}
+  [1m[36m (140.1ms)[0m  [1m 
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-05-15'), date('2008-05-16'), 2)
+		[0m
+Completed 200 OK in 142ms (Views: 0.0ms | ActiveRecord: 140.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 20:45:04 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["лещ", "карась"], "baits"=>["червяк", "опарыш", "кукуруза"], "places"=>["Быстрица"], "fishing_id"=>"11"}
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'лещ'
+  [1m[36m (107.1ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '11' as fishing_id from fishes
+								where
+								name='лещ'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'карась'
+  [1m[36m (87.1ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '11' as fishing_id from fishes
+								where
+								name='карась'
+							[0m
+  [1m[35m (1.0ms)[0m   
+						select 1 from baits
+						where name = 'червяк'
+  [1m[36m (120.1ms)[0m  [1m 
+								insert into used_baits(bait_id, fishing_id)
+								select id, '11' as fishing_id from baits
+								where
+								name='червяк'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from baits
+						where name = 'опарыш'
+  [1m[36m (134.1ms)[0m  [1m 
+								insert into used_baits(bait_id, fishing_id)
+								select id, '11' as fishing_id from baits
+								where
+								name='опарыш'
+							[0m
+  [1m[35m (1.0ms)[0m   
+						select 1 from baits
+						where name = 'кукуруза'
+  [1m[36m (130.1ms)[0m  [1m 
+								insert into used_baits(bait_id, fishing_id)
+								select id, '11' as fishing_id from baits
+								where
+								name='кукуруза'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from places
+						where name = 'Быстрица'
+  [1m[36m (119.1ms)[0m  [1m 
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '11' as fishing_id, '1' as [order] from places
+								where
+								name='Быстрица'
+							[0m
+Completed 200 OK in 710ms (Views: 0.0ms | ActiveRecord: 699.5ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=17.05.2008&end_date=18.05.2008&total_weight=3" for ::1 at 2016-02-23 20:48:28 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"17.05.2008", "end_date"=>"18.05.2008", "total_weight"=>"3"}
+  [1m[35m (183.1ms)[0m   
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-05-17'), date('2008-05-18'), 3)
+		
+Completed 200 OK in 185ms (Views: 0.0ms | ActiveRecord: 183.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 20:48:28 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["сазан", "щука"], "baits"=>["червяк", "кукуруза"], "places"=>["Школьное"], "fishing_id"=>"12"}
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'сазан'[0m
+  [1m[35m (333.2ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '12' as fishing_id from fishes
+								where
+								name='сазан'
+							
+  [1m[36m (1.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'щука'[0m
+  [1m[35m (298.2ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '12' as fishing_id from fishes
+								where
+								name='щука'
+							
+  [1m[36m (1.0ms)[0m  [1m 
+						select 1 from baits
+						where name = 'червяк'[0m
+  [1m[35m (343.2ms)[0m   
+								insert into used_baits(bait_id, fishing_id)
+								select id, '12' as fishing_id from baits
+								where
+								name='червяк'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from baits
+						where name = 'кукуруза'[0m
+  [1m[35m (353.3ms)[0m   
+								insert into used_baits(bait_id, fishing_id)
+								select id, '12' as fishing_id from baits
+								where
+								name='кукуруза'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from places
+						where name = 'Школьное'[0m
+  [1m[35m (642.5ms)[0m   
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '12' as fishing_id, '1' as [order] from places
+								where
+								name='Школьное'
+							
+Completed 200 OK in 2013ms (Views: 1.0ms | ActiveRecord: 1972.4ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=20.05.2008&end_date=20.05.2008&total_weight=1" for ::1 at 2016-02-23 20:54:34 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"20.05.2008", "end_date"=>"20.05.2008", "total_weight"=>"1"}
+  [1m[36m (103.1ms)[0m  [1m 
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-05-20'), date('2008-05-20'), 1)
+		[0m
+Completed 200 OK in 105ms (Views: 0.0ms | ActiveRecord: 103.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 20:54:34 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["лещ", "карась", "сомик", "карп"], "baits"=>["червяк", "кукуруза", "тесто"], "places"=>["оз.Читук"], "fishing_id"=>"13"}
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'лещ'
+  [1m[36m (161.1ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '13' as fishing_id from fishes
+								where
+								name='лещ'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'карась'
+  [1m[36m (243.2ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '13' as fishing_id from fishes
+								where
+								name='карась'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'сомик'
+  [1m[36m (476.3ms)[0m  [1m 
+							insert into fishes(name)
+							values ('сомик')
+						[0m
+  [1m[35m (290.2ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '13' as fishing_id from fishes
+								where
+								name='сомик'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'карп'[0m
+  [1m[35m (216.2ms)[0m   
+							insert into fishes(name)
+							values ('карп')
+						
+  [1m[36m (253.2ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '13' as fishing_id from fishes
+								where
+								name='карп'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from baits
+						where name = 'червяк'
+  [1m[36m (367.3ms)[0m  [1m 
+								insert into used_baits(bait_id, fishing_id)
+								select id, '13' as fishing_id from baits
+								where
+								name='червяк'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from baits
+						where name = 'кукуруза'
+  [1m[36m (275.2ms)[0m  [1m 
+								insert into used_baits(bait_id, fishing_id)
+								select id, '13' as fishing_id from baits
+								where
+								name='кукуруза'
+							[0m
+  [1m[35m (1.0ms)[0m   
+						select 1 from baits
+						where name = 'тесто'
+  [1m[36m (134.1ms)[0m  [1m 
+							insert into baits(name)
+							values ('тесто')
+						[0m
+  [1m[35m (151.1ms)[0m   
+								insert into used_baits(bait_id, fishing_id)
+								select id, '13' as fishing_id from baits
+								where
+								name='тесто'
+							
+  [1m[36m (1.0ms)[0m  [1m 
+						select 1 from places
+						where name = 'оз.Читук'[0m
+  [1m[35m (164.1ms)[0m   
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '13' as fishing_id, '1' as [order] from places
+								where
+								name='оз.Читук'
+							
+Completed 200 OK in 2753ms (Views: 0.0ms | ActiveRecord: 2733.9ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=22.05.2008&end_date=23.05.2008&total_weight=5.2" for ::1 at 2016-02-23 21:08:06 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"22.05.2008", "end_date"=>"23.05.2008", "total_weight"=>"5.2"}
+  [1m[36m (190.1ms)[0m  [1m 
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-05-22'), date('2008-05-23'), 5.2)
+		[0m
+Completed 200 OK in 193ms (Views: 0.0ms | ActiveRecord: 190.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 21:08:07 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["лещик", "берш", "судак", "карась"], "baits"=>["червяк"], "places"=>["2й пруд", "Крюковское водохранилище", "р.Читук"], "fishing_id"=>"14"}
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'лещик'
+  [1m[36m (98.1ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '14' as fishing_id from fishes
+								where
+								name='лещик'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'берш'
+  [1m[36m (155.1ms)[0m  [1m 
+							insert into fishes(name)
+							values ('берш')
+						[0m
+  [1m[35m (87.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '14' as fishing_id from fishes
+								where
+								name='берш'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'судак'[0m
+  [1m[35m (99.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '14' as fishing_id from fishes
+								where
+								name='судак'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'карась'[0m
+  [1m[35m (142.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '14' as fishing_id from fishes
+								where
+								name='карась'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from baits
+						where name = 'червяк'[0m
+  [1m[35m (233.2ms)[0m   
+								insert into used_baits(bait_id, fishing_id)
+								select id, '14' as fishing_id from baits
+								where
+								name='червяк'
+							
+  [1m[36m (1.0ms)[0m  [1m 
+						select 1 from places
+						where name = '2й пруд'[0m
+  [1m[35m (117.1ms)[0m   
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '14' as fishing_id, '1' as [order] from places
+								where
+								name='2й пруд'
+							
+  [1m[36m (1.0ms)[0m  [1m 
+						select 1 from places
+						where name = 'Крюковское водохранилище'[0m
+  [1m[35m (209.1ms)[0m   
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '14' as fishing_id, '2' as [order] from places
+								where
+								name='Крюковское водохранилище'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from places
+						where name = 'р.Читук'[0m
+  [1m[35m (97.1ms)[0m   
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '14' as fishing_id, '3' as [order] from places
+								where
+								name='р.Читук'
+							
+Completed 200 OK in 1256ms (Views: 0.0ms | ActiveRecord: 1239.9ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=05.06.2008&end_date=05.06.2008&total_weight=5.6" for ::1 at 2016-02-23 21:12:42 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"05.06.2008", "end_date"=>"05.06.2008", "total_weight"=>"5.6"}
+  [1m[36m (280.2ms)[0m  [1m 
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-06-05'), date('2008-06-05'), 5.6)
+		[0m
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 280.2ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 21:12:42 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["карась", "щука"], "baits"=>["червяк"], "places"=>["Царина Поляна"], "fishing_id"=>"15"}
+  [1m[35m (1.0ms)[0m   
+						select 1 from fishes
+						where name = 'карась'
+  [1m[36m (161.1ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '15' as fishing_id from fishes
+								where
+								name='карась'
+							[0m
+  [1m[35m (1.0ms)[0m   
+						select 1 from fishes
+						where name = 'щука'
+  [1m[36m (255.2ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '15' as fishing_id from fishes
+								where
+								name='щука'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from baits
+						where name = 'червяк'
+  [1m[36m (242.2ms)[0m  [1m 
+								insert into used_baits(bait_id, fishing_id)
+								select id, '15' as fishing_id from baits
+								where
+								name='червяк'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from places
+						where name = 'Царина Поляна'
+  [1m[36m (242.2ms)[0m  [1m 
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '15' as fishing_id, '1' as [order] from places
+								where
+								name='Царина Поляна'
+							[0m
+Completed 200 OK in 910ms (Views: 1.0ms | ActiveRecord: 902.6ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=08.06.2008&end_date=08.06.2008&total_weight=8" for ::1 at 2016-02-23 21:13:15 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"08.06.2008", "end_date"=>"08.06.2008", "total_weight"=>"8"}
+  [1m[35m (91.1ms)[0m   
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-06-08'), date('2008-06-08'), 8)
+		
+Completed 200 OK in 92ms (Views: 0.0ms | ActiveRecord: 91.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 21:13:15 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["карась", "щука"], "baits"=>["червяк"], "places"=>["Царина Поляна"], "fishing_id"=>"16"}
+  [1m[36m (1.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'карась'[0m
+  [1m[35m (111.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '16' as fishing_id from fishes
+								where
+								name='карась'
+							
+  [1m[36m (1.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'щука'[0m
+  [1m[35m (110.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '16' as fishing_id from fishes
+								where
+								name='щука'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from baits
+						where name = 'червяк'[0m
+  [1m[35m (86.1ms)[0m   
+								insert into used_baits(bait_id, fishing_id)
+								select id, '16' as fishing_id from baits
+								where
+								name='червяк'
+							
+  [1m[36m (1.0ms)[0m  [1m 
+						select 1 from places
+						where name = 'Царина Поляна'[0m
+  [1m[35m (87.1ms)[0m   
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '16' as fishing_id, '1' as [order] from places
+								where
+								name='Царина Поляна'
+							
+Completed 200 OK in 403ms (Views: 0.0ms | ActiveRecord: 397.3ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=13.06.2008&end_date=13.06.2008&total_weight=7" for ::1 at 2016-02-23 21:14:02 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"13.06.2008", "end_date"=>"13.06.2008", "total_weight"=>"7"}
+  [1m[36m (307.2ms)[0m  [1m 
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-06-13'), date('2008-06-13'), 7)
+		[0m
+Completed 200 OK in 309ms (Views: 0.0ms | ActiveRecord: 307.2ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 21:14:02 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["карась", "щука"], "baits"=>["червяк"], "places"=>["Царина Поляна"], "fishing_id"=>"17"}
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'карась'
+  [1m[36m (77.1ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '17' as fishing_id from fishes
+								where
+								name='карась'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'щука'
+  [1m[36m (141.1ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '17' as fishing_id from fishes
+								where
+								name='щука'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from baits
+						where name = 'червяк'
+  [1m[36m (174.1ms)[0m  [1m 
+								insert into used_baits(bait_id, fishing_id)
+								select id, '17' as fishing_id from baits
+								where
+								name='червяк'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from places
+						where name = 'Царина Поляна'
+  [1m[36m (123.1ms)[0m  [1m 
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '17' as fishing_id, '1' as [order] from places
+								where
+								name='Царина Поляна'
+							[0m
+Completed 200 OK in 524ms (Views: 0.0ms | ActiveRecord: 515.4ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=19.06.2008&end_date=21.06.2008&total_weight=6.5" for ::1 at 2016-02-23 21:15:36 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"19.06.2008", "end_date"=>"21.06.2008", "total_weight"=>"6.5"}
+  [1m[35m (288.2ms)[0m   
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-06-19'), date('2008-06-21'), 6.5)
+		
+Completed 200 OK in 290ms (Views: 0.0ms | ActiveRecord: 288.2ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 21:15:37 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["карась", "щука", "сазан", "лещик", "красноперка", "шамайка"], "baits"=>["червяк", "кукуруза"], "places"=>["Садки", "Огородный"], "fishing_id"=>"18"}
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'карась'[0m
+  [1m[35m (218.2ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '18' as fishing_id from fishes
+								where
+								name='карась'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'щука'[0m
+  [1m[35m (165.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '18' as fishing_id from fishes
+								where
+								name='щука'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'сазан'[0m
+  [1m[35m (265.2ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '18' as fishing_id from fishes
+								where
+								name='сазан'
+							
+  [1m[36m (1.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'лещик'[0m
+  [1m[35m (329.2ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '18' as fishing_id from fishes
+								where
+								name='лещик'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'красноперка'[0m
+  [1m[35m (208.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '18' as fishing_id from fishes
+								where
+								name='красноперка'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'шамайка'[0m
+  [1m[35m (492.3ms)[0m   
+							insert into fishes(name)
+							values ('шамайка')
+						
+  [1m[36m (395.3ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '18' as fishing_id from fishes
+								where
+								name='шамайка'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from baits
+						where name = 'червяк'
+  [1m[36m (153.1ms)[0m  [1m 
+								insert into used_baits(bait_id, fishing_id)
+								select id, '18' as fishing_id from baits
+								where
+								name='червяк'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from baits
+						where name = 'кукуруза'
+  [1m[36m (230.2ms)[0m  [1m 
+								insert into used_baits(bait_id, fishing_id)
+								select id, '18' as fishing_id from baits
+								where
+								name='кукуруза'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from places
+						where name = 'Садки'
+  [1m[36m (210.1ms)[0m  [1m 
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '18' as fishing_id, '1' as [order] from places
+								where
+								name='Садки'
+							[0m
+  [1m[35m (1.0ms)[0m   
+						select 1 from places
+						where name = 'Огородный'
+  [1m[36m (176.1ms)[0m  [1m 
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '18' as fishing_id, '2' as [order] from places
+								where
+								name='Огородный'
+							[0m
+Completed 200 OK in 2867ms (Views: 0.0ms | ActiveRecord: 2845.0ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=28.06.2008&end_date=28.06.2008&total_weight=7" for ::1 at 2016-02-23 21:17:26 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"28.06.2008", "end_date"=>"28.06.2008", "total_weight"=>"7"}
+  [1m[35m (101.1ms)[0m   
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-06-28'), date('2008-06-28'), 7)
+		
+Completed 200 OK in 103ms (Views: 0.0ms | ActiveRecord: 101.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 21:17:27 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["белый амур", "карась", "карп"], "baits"=>["кукуруза"], "places"=>["Платное озеро"], "fishing_id"=>"19"}
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'белый амур'[0m
+  [1m[35m (201.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '19' as fishing_id from fishes
+								where
+								name='белый амур'
+							
+  [1m[36m (1.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'карась'[0m
+  [1m[35m (166.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '19' as fishing_id from fishes
+								where
+								name='карась'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'карп'[0m
+  [1m[35m (86.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '19' as fishing_id from fishes
+								where
+								name='карп'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from baits
+						where name = 'кукуруза'[0m
+  [1m[35m (98.1ms)[0m   
+								insert into used_baits(bait_id, fishing_id)
+								select id, '19' as fishing_id from baits
+								where
+								name='кукуруза'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from places
+						where name = 'Платное озеро'[0m
+  [1m[35m (97.1ms)[0m   
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '19' as fishing_id, '1' as [order] from places
+								where
+								name='Платное озеро'
+							
+Completed 200 OK in 657ms (Views: 0.0ms | ActiveRecord: 649.5ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=05.07.2008&end_date=06.07.2008&total_weight=10" for ::1 at 2016-02-23 21:19:16 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"05.07.2008", "end_date"=>"06.07.2008", "total_weight"=>"10"}
+  [1m[36m (275.2ms)[0m  [1m 
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-07-05'), date('2008-07-06'), 10)
+		[0m
+Completed 200 OK in 277ms (Views: 0.0ms | ActiveRecord: 275.2ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 21:19:16 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["белый амур", "карпик", "сазан", "толстолобик"], "baits"=>["кукуруза"], "places"=>["Поплавок"], "fishing_id"=>"20"}
+  [1m[35m (1.0ms)[0m   
+						select 1 from fishes
+						where name = 'белый амур'
+  [1m[36m (273.2ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '20' as fishing_id from fishes
+								where
+								name='белый амур'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'карпик'
+  [1m[36m (678.5ms)[0m  [1m 
+							insert into fishes(name)
+							values ('карпик')
+						[0m
+  [1m[35m (386.3ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '20' as fishing_id from fishes
+								where
+								name='карпик'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'сазан'[0m
+  [1m[35m (243.2ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '20' as fishing_id from fishes
+								where
+								name='сазан'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'толстолобик'[0m
+  [1m[35m (386.3ms)[0m   
+							insert into fishes(name)
+							values ('толстолобик')
+						
+  [1m[36m (391.3ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '20' as fishing_id from fishes
+								where
+								name='толстолобик'
+							[0m
+  [1m[35m (1.0ms)[0m   
+						select 1 from baits
+						where name = 'кукуруза'
+  [1m[36m (261.2ms)[0m  [1m 
+								insert into used_baits(bait_id, fishing_id)
+								select id, '20' as fishing_id from baits
+								where
+								name='кукуруза'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from places
+						where name = 'Поплавок'
+  [1m[36m (498.3ms)[0m  [1m 
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '20' as fishing_id, '1' as [order] from places
+								where
+								name='Поплавок'
+							[0m
+Completed 200 OK in 3134ms (Views: 0.0ms | ActiveRecord: 3120.2ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=08.08.2008&end_date=09.08.2008&total_weight=2.5" for ::1 at 2016-02-23 21:20:21 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"08.08.2008", "end_date"=>"09.08.2008", "total_weight"=>"2.5"}
+  [1m[35m (172.1ms)[0m   
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-08-08'), date('2008-08-09'), 2.5)
+		
+Completed 200 OK in 173ms (Views: 0.0ms | ActiveRecord: 172.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 21:20:21 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["карась", "зеркальный карпик"], "baits"=>["кукуруза"], "places"=>["Платное озеро"], "fishing_id"=>"21"}
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'карась'[0m
+  [1m[35m (230.2ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '21' as fishing_id from fishes
+								where
+								name='карась'
+							
+  [1m[36m (1.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'зеркальный карпик'[0m
+  [1m[35m (390.3ms)[0m   
+							insert into fishes(name)
+							values ('зеркальный карпик')
+						
+  [1m[36m (240.2ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '21' as fishing_id from fishes
+								where
+								name='зеркальный карпик'
+							[0m
+  [1m[35m (1.0ms)[0m   
+						select 1 from baits
+						where name = 'кукуруза'
+  [1m[36m (208.1ms)[0m  [1m 
+								insert into used_baits(bait_id, fishing_id)
+								select id, '21' as fishing_id from baits
+								where
+								name='кукуруза'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from places
+						where name = 'Платное озеро'
+  [1m[36m (131.1ms)[0m  [1m 
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '21' as fishing_id, '1' as [order] from places
+								where
+								name='Платное озеро'
+							[0m
+Completed 200 OK in 1213ms (Views: 1.0ms | ActiveRecord: 1201.8ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=23.08.2008&end_date=23.08.2008&total_weight=1" for ::1 at 2016-02-23 21:21:19 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"23.08.2008", "end_date"=>"23.08.2008", "total_weight"=>"1"}
+  [1m[35m (144.1ms)[0m   
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-08-23'), date('2008-08-23'), 1)
+		
+Completed 200 OK in 145ms (Views: 1.0ms | ActiveRecord: 144.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 21:21:19 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["красноперка", "карась"], "baits"=>["кукуруза", "тесто"], "places"=>["ул. Уральская"], "fishing_id"=>"22"}
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'красноперка'[0m
+  [1m[35m (117.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '22' as fishing_id from fishes
+								where
+								name='красноперка'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'карась'[0m
+  [1m[35m (132.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '22' as fishing_id from fishes
+								where
+								name='карась'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from baits
+						where name = 'кукуруза'[0m
+  [1m[35m (145.1ms)[0m   
+								insert into used_baits(bait_id, fishing_id)
+								select id, '22' as fishing_id from baits
+								where
+								name='кукуруза'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from baits
+						where name = 'тесто'[0m
+  [1m[35m (106.1ms)[0m   
+								insert into used_baits(bait_id, fishing_id)
+								select id, '22' as fishing_id from baits
+								where
+								name='тесто'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from places
+						where name = 'ул. Уральская'[0m
+  [1m[35m (111.1ms)[0m   
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '22' as fishing_id, '1' as [order] from places
+								where
+								name='ул. Уральская'
+							
+Completed 200 OK in 620ms (Views: 1.0ms | ActiveRecord: 611.4ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=27.08.2008&end_date=27.08.2008&total_weight=3" for ::1 at 2016-02-23 21:22:24 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"27.08.2008", "end_date"=>"27.08.2008", "total_weight"=>"3"}
+  [1m[36m (190.1ms)[0m  [1m 
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-08-27'), date('2008-08-27'), 3)
+		[0m
+Completed 200 OK in 192ms (Views: 1.0ms | ActiveRecord: 190.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 21:22:24 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["карась", "карп"], "baits"=>["кукуруза"], "places"=>["Платное озеро"], "fishing_id"=>"23"}
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'карась'
+  [1m[36m (143.1ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '23' as fishing_id from fishes
+								where
+								name='карась'
+							[0m
+  [1m[35m (1.0ms)[0m   
+						select 1 from fishes
+						where name = 'карп'
+  [1m[36m (130.1ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '23' as fishing_id from fishes
+								where
+								name='карп'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from baits
+						where name = 'кукуруза'
+  [1m[36m (76.1ms)[0m  [1m 
+								insert into used_baits(bait_id, fishing_id)
+								select id, '23' as fishing_id from baits
+								where
+								name='кукуруза'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from places
+						where name = 'Платное озеро'
+  [1m[36m (83.1ms)[0m  [1m 
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '23' as fishing_id, '1' as [order] from places
+								where
+								name='Платное озеро'
+							[0m
+Completed 200 OK in 444ms (Views: 0.0ms | ActiveRecord: 433.3ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=05.09.2008&end_date=06.09.2008&total_weight=5" for ::1 at 2016-02-23 21:57:57 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"05.09.2008", "end_date"=>"06.09.2008", "total_weight"=>"5"}
+  [1m[35m (149.1ms)[0m   
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-09-05'), date('2008-09-06'), 5)
+		
+Completed 200 OK in 150ms (Views: 0.0ms | ActiveRecord: 149.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 21:57:58 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["щука", "сазан", "толстолобик", "плотва"], "baits"=>["кукуруза"], "places"=>["Приречный"], "fishing_id"=>"24"}
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'щука'[0m
+  [1m[35m (186.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '24' as fishing_id from fishes
+								where
+								name='щука'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'сазан'[0m
+  [1m[35m (142.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '24' as fishing_id from fishes
+								where
+								name='сазан'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'толстолобик'[0m
+  [1m[35m (205.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '24' as fishing_id from fishes
+								where
+								name='толстолобик'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'плотва'[0m
+  [1m[35m (113.1ms)[0m   
+							insert into fishes(name)
+							values ('плотва')
+						
+  [1m[36m (193.1ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '24' as fishing_id from fishes
+								where
+								name='плотва'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from baits
+						where name = 'кукуруза'
+  [1m[36m (179.1ms)[0m  [1m 
+								insert into used_baits(bait_id, fishing_id)
+								select id, '24' as fishing_id from baits
+								where
+								name='кукуруза'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from places
+						where name = 'Приречный'
+  [1m[36m (244.2ms)[0m  [1m 
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '24' as fishing_id, '1' as [order] from places
+								where
+								name='Приречный'
+							[0m
+Completed 200 OK in 1280ms (Views: 0.0ms | ActiveRecord: 1262.9ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=12.09.2008&end_date=13.09.2008&total_weight=5" for ::1 at 2016-02-23 21:58:51 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"12.09.2008", "end_date"=>"13.09.2008", "total_weight"=>"5"}
+  [1m[35m (173.1ms)[0m   
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-09-12'), date('2008-09-13'), 5)
+		
+Completed 200 OK in 175ms (Views: 0.0ms | ActiveRecord: 173.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 21:58:51 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["окунь", "карась"], "baits"=>["червяк"], "places"=>["Темрючанка"], "fishing_id"=>"25"}
+  [1m[36m (1.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'окунь'[0m
+  [1m[35m (163.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '25' as fishing_id from fishes
+								where
+								name='окунь'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'карась'[0m
+  [1m[35m (197.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '25' as fishing_id from fishes
+								where
+								name='карась'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from baits
+						where name = 'червяк'[0m
+  [1m[35m (265.2ms)[0m   
+								insert into used_baits(bait_id, fishing_id)
+								select id, '25' as fishing_id from baits
+								where
+								name='червяк'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from places
+						where name = 'Темрючанка'[0m
+  [1m[35m (87.1ms)[0m   
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '25' as fishing_id, '1' as [order] from places
+								where
+								name='Темрючанка'
+							
+Completed 200 OK in 721ms (Views: 0.0ms | ActiveRecord: 713.5ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=20.09.2008&end_date=22.09.2008&total_weight=3" for ::1 at 2016-02-23 22:00:27 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"20.09.2008", "end_date"=>"22.09.2008", "total_weight"=>"3"}
+  [1m[36m (215.1ms)[0m  [1m 
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-09-20'), date('2008-09-22'), 3)
+		[0m
+Completed 200 OK in 218ms (Views: 0.0ms | ActiveRecord: 215.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 22:00:27 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["карась", "Тарань", "лещ"], "baits"=>["кукуруза"], "places"=>["Огородный"], "fishing_id"=>"26"}
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'карась'
+  [1m[36m (198.1ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '26' as fishing_id from fishes
+								where
+								name='карась'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'Тарань'
+  [1m[36m (211.2ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '26' as fishing_id from fishes
+								where
+								name='Тарань'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'лещ'
+  [1m[36m (210.1ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '26' as fishing_id from fishes
+								where
+								name='лещ'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from baits
+						where name = 'кукуруза'
+  [1m[36m (117.1ms)[0m  [1m 
+								insert into used_baits(bait_id, fishing_id)
+								select id, '26' as fishing_id from baits
+								where
+								name='кукуруза'
+							[0m
+  [1m[35m (1.0ms)[0m   
+						select 1 from places
+						where name = 'Огородный'
+  [1m[36m (120.1ms)[0m  [1m 
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '26' as fishing_id, '1' as [order] from places
+								where
+								name='Огородный'
+							[0m
+Completed 200 OK in 869ms (Views: 0.0ms | ActiveRecord: 857.6ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=26.09.2008&end_date=27.09.2008&total_weight=3" for ::1 at 2016-02-23 22:01:14 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"26.09.2008", "end_date"=>"27.09.2008", "total_weight"=>"3"}
+  [1m[35m (127.1ms)[0m   
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-09-26'), date('2008-09-27'), 3)
+		
+Completed 200 OK in 129ms (Views: 0.0ms | ActiveRecord: 127.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 22:01:14 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["лещ", "плотва", "карась", "сазан"], "baits"=>["кукуруза", "червяк"], "places"=>["Царина Поляна", "Приречный"], "fishing_id"=>"27"}
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'лещ'[0m
+  [1m[35m (164.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '27' as fishing_id from fishes
+								where
+								name='лещ'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'плотва'[0m
+  [1m[35m (186.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '27' as fishing_id from fishes
+								where
+								name='плотва'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'карась'[0m
+  [1m[35m (187.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '27' as fishing_id from fishes
+								where
+								name='карась'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'сазан'[0m
+  [1m[35m (122.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '27' as fishing_id from fishes
+								where
+								name='сазан'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from baits
+						where name = 'кукуруза'[0m
+  [1m[35m (109.1ms)[0m   
+								insert into used_baits(bait_id, fishing_id)
+								select id, '27' as fishing_id from baits
+								where
+								name='кукуруза'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from baits
+						where name = 'червяк'[0m
+  [1m[35m (119.1ms)[0m   
+								insert into used_baits(bait_id, fishing_id)
+								select id, '27' as fishing_id from baits
+								where
+								name='червяк'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from places
+						where name = 'Царина Поляна'[0m
+  [1m[35m (131.1ms)[0m   
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '27' as fishing_id, '1' as [order] from places
+								where
+								name='Царина Поляна'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from places
+						where name = 'Приречный'[0m
+  [1m[35m (243.2ms)[0m   
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '27' as fishing_id, '2' as [order] from places
+								where
+								name='Приречный'
+							
+Completed 200 OK in 1312ms (Views: 0.0ms | ActiveRecord: 1261.9ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=01.10.2008&end_date=02.10.2008&total_weight=12" for ::1 at 2016-02-23 22:02:12 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"01.10.2008", "end_date"=>"02.10.2008", "total_weight"=>"12"}
+  [1m[36m (166.1ms)[0m  [1m 
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-10-01'), date('2008-10-02'), 12)
+		[0m
+Completed 200 OK in 167ms (Views: 0.0ms | ActiveRecord: 166.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 22:02:12 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["лещ", "плотва", "карась", "карп", "щука"], "baits"=>["кукуруза"], "places"=>["Приречный"], "fishing_id"=>"28"}
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'лещ'
+  [1m[36m (232.2ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '28' as fishing_id from fishes
+								where
+								name='лещ'
+							[0m
+  [1m[35m (1.0ms)[0m   
+						select 1 from fishes
+						where name = 'плотва'
+  [1m[36m (177.1ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '28' as fishing_id from fishes
+								where
+								name='плотва'
+							[0m
+  [1m[35m (1.0ms)[0m   
+						select 1 from fishes
+						where name = 'карась'
+  [1m[36m (288.2ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '28' as fishing_id from fishes
+								where
+								name='карась'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'карп'
+  [1m[36m (200.1ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '28' as fishing_id from fishes
+								where
+								name='карп'
+							[0m
+  [1m[35m (1.0ms)[0m   
+						select 1 from fishes
+						where name = 'щука'
+  [1m[36m (183.1ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '28' as fishing_id from fishes
+								where
+								name='щука'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from baits
+						where name = 'кукуруза'
+  [1m[36m (233.2ms)[0m  [1m 
+								insert into used_baits(bait_id, fishing_id)
+								select id, '28' as fishing_id from baits
+								where
+								name='кукуруза'
+							[0m
+  [1m[35m (1.0ms)[0m   
+						select 1 from places
+						where name = 'Приречный'
+  [1m[36m (277.2ms)[0m  [1m 
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '28' as fishing_id, '1' as [order] from places
+								where
+								name='Приречный'
+							[0m
+Completed 200 OK in 1603ms (Views: 0.0ms | ActiveRecord: 1595.1ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=17.10.2008&end_date=18.10.2008&total_weight=2" for ::1 at 2016-02-23 22:02:40 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"17.10.2008", "end_date"=>"18.10.2008", "total_weight"=>"2"}
+  [1m[35m (153.1ms)[0m   
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-10-17'), date('2008-10-18'), 2)
+		
+Completed 200 OK in 154ms (Views: 0.0ms | ActiveRecord: 153.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 22:02:40 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["плотва", "щука"], "baits"=>["кукуруза"], "places"=>["Приречный"], "fishing_id"=>"29"}
+  [1m[36m (1.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'плотва'[0m
+  [1m[35m (221.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '29' as fishing_id from fishes
+								where
+								name='плотва'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'щука'[0m
+  [1m[35m (97.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '29' as fishing_id from fishes
+								where
+								name='щука'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from baits
+						where name = 'кукуруза'[0m
+  [1m[35m (133.1ms)[0m   
+								insert into used_baits(bait_id, fishing_id)
+								select id, '29' as fishing_id from baits
+								where
+								name='кукуруза'
+							
+  [1m[36m (1.0ms)[0m  [1m 
+						select 1 from places
+						where name = 'Приречный'[0m
+  [1m[35m (143.1ms)[0m   
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '29' as fishing_id, '1' as [order] from places
+								where
+								name='Приречный'
+							
+Completed 200 OK in 601ms (Views: 1.0ms | ActiveRecord: 596.4ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=26.10.2008&end_date=27.10.2008&total_weight=7" for ::1 at 2016-02-23 22:03:21 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"26.10.2008", "end_date"=>"27.10.2008", "total_weight"=>"7"}
+  [1m[36m (110.1ms)[0m  [1m 
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-10-26'), date('2008-10-27'), 7)
+		[0m
+Completed 200 OK in 111ms (Views: 0.0ms | ActiveRecord: 110.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 22:03:21 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["лещ", "карась", "Тарань"], "baits"=>["опарыш", "червяк"], "places"=>["Огородный"], "fishing_id"=>"30"}
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'лещ'
+  [1m[36m (101.1ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '30' as fishing_id from fishes
+								where
+								name='лещ'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'карась'
+  [1m[36m (209.1ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '30' as fishing_id from fishes
+								where
+								name='карась'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'Тарань'
+  [1m[36m (153.1ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '30' as fishing_id from fishes
+								where
+								name='Тарань'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from baits
+						where name = 'опарыш'
+  [1m[36m (108.1ms)[0m  [1m 
+								insert into used_baits(bait_id, fishing_id)
+								select id, '30' as fishing_id from baits
+								where
+								name='опарыш'
+							[0m
+  [1m[35m (1.0ms)[0m   
+						select 1 from baits
+						where name = 'червяк'
+  [1m[36m (153.1ms)[0m  [1m 
+								insert into used_baits(bait_id, fishing_id)
+								select id, '30' as fishing_id from baits
+								where
+								name='червяк'
+							[0m
+  [1m[35m (1.0ms)[0m   
+						select 1 from places
+						where name = 'Огородный'
+  [1m[36m (99.1ms)[0m  [1m 
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '30' as fishing_id, '1' as [order] from places
+								where
+								name='Огородный'
+							[0m
+Completed 200 OK in 837ms (Views: 0.0ms | ActiveRecord: 825.6ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=02.11.2008&end_date=02.11.2008&total_weight=5.3" for ::1 at 2016-02-23 22:05:25 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"02.11.2008", "end_date"=>"02.11.2008", "total_weight"=>"5.3"}
+  [1m[35m (101.1ms)[0m   
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-11-02'), date('2008-11-02'), 5.3)
+		
+Completed 200 OK in 102ms (Views: 0.0ms | ActiveRecord: 101.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 22:05:26 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["карп"], "baits"=>["кукуруза"], "places"=>["Харчевня"], "fishing_id"=>"31"}
+  [1m[36m (1.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'карп'[0m
+  [1m[35m (100.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '31' as fishing_id from fishes
+								where
+								name='карп'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from baits
+						where name = 'кукуруза'[0m
+  [1m[35m (109.1ms)[0m   
+								insert into used_baits(bait_id, fishing_id)
+								select id, '31' as fishing_id from baits
+								where
+								name='кукуруза'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from places
+						where name = 'Харчевня'[0m
+  [1m[35m (311.2ms)[0m   
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '31' as fishing_id, '1' as [order] from places
+								where
+								name='Харчевня'
+							
+Completed 200 OK in 526ms (Views: 0.0ms | ActiveRecord: 521.4ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=03.12.2008&end_date=03.12.2008&total_weight=0.5" for ::1 at 2016-02-23 22:06:09 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"03.12.2008", "end_date"=>"03.12.2008", "total_weight"=>"0.5"}
+  [1m[36m (264.2ms)[0m  [1m 
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-12-03'), date('2008-12-03'), 0.5)
+		[0m
+Completed 200 OK in 265ms (Views: 0.0ms | ActiveRecord: 264.2ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 22:06:09 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["лещик"], "baits"=>["червяк"], "places"=>["Приречный"], "fishing_id"=>"32"}
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'лещик'
+  [1m[36m (154.1ms)[0m  [1m 
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '32' as fishing_id from fishes
+								where
+								name='лещик'
+							[0m
+  [1m[35m (1.0ms)[0m   
+						select 1 from baits
+						where name = 'червяк'
+  [1m[36m (131.1ms)[0m  [1m 
+								insert into used_baits(bait_id, fishing_id)
+								select id, '32' as fishing_id from baits
+								where
+								name='червяк'
+							[0m
+  [1m[35m (0.0ms)[0m   
+						select 1 from places
+						where name = 'Приречный'
+  [1m[36m (109.1ms)[0m  [1m 
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '32' as fishing_id, '1' as [order] from places
+								where
+								name='Приречный'
+							[0m
+Completed 200 OK in 401ms (Views: 0.0ms | ActiveRecord: 395.3ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=06.12.2008&end_date=06.12.2008&total_weight=4" for ::1 at 2016-02-23 22:06:58 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"06.12.2008", "end_date"=>"06.12.2008", "total_weight"=>"4"}
+  [1m[35m (103.1ms)[0m   
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-12-06'), date('2008-12-06'), 4)
+		
+Completed 200 OK in 104ms (Views: 0.0ms | ActiveRecord: 103.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 22:06:58 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["окунь", "красноперка", "Тарань", "щука"], "baits"=>["червяк"], "places"=>["Темрючанка"], "fishing_id"=>"33"}
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'окунь'[0m
+  [1m[35m (121.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '33' as fishing_id from fishes
+								where
+								name='окунь'
+							
+  [1m[36m (1.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'красноперка'[0m
+  [1m[35m (133.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '33' as fishing_id from fishes
+								where
+								name='красноперка'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'Тарань'[0m
+  [1m[35m (132.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '33' as fishing_id from fishes
+								where
+								name='Тарань'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from fishes
+						where name = 'щука'[0m
+  [1m[35m (152.1ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '33' as fishing_id from fishes
+								where
+								name='щука'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from baits
+						where name = 'червяк'[0m
+  [1m[35m (176.1ms)[0m   
+								insert into used_baits(bait_id, fishing_id)
+								select id, '33' as fishing_id from baits
+								where
+								name='червяк'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from places
+						where name = 'Темрючанка'[0m
+  [1m[35m (131.1ms)[0m   
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '33' as fishing_id, '1' as [order] from places
+								where
+								name='Темрючанка'
+							
+Completed 200 OK in 859ms (Views: 0.0ms | ActiveRecord: 846.6ms)
+
+
+Started POST "/add_fishing/add_fishing?start_date=13.12.2008&end_date=13.12.2008&total_weight=1.5" for ::1 at 2016-02-23 22:13:03 +0300
+Processing by AddFishingController#add_fishing as JSON
+  Parameters: {"start_date"=>"13.12.2008", "end_date"=>"13.12.2008", "total_weight"=>"1.5"}
+  [1m[36m (174.1ms)[0m  [1m 
+			insert into fishings(date_from,date_to,total_weight)
+			values (date('2008-12-13'), date('2008-12-13'), 1.5)
+		[0m
+Completed 200 OK in 175ms (Views: 0.0ms | ActiveRecord: 174.1ms)
+
+
+Started POST "/add_fishing/add_other" for ::1 at 2016-02-23 22:13:03 +0300
+Processing by AddFishingController#add_other as JSON
+  Parameters: {"fishes"=>["чуларка"], "baits"=>["мотыль"], "places"=>["Морвокзал"], "fishing_id"=>"34"}
+  [1m[35m (0.0ms)[0m   
+						select 1 from fishes
+						where name = 'чуларка'
+  [1m[36m (476.3ms)[0m  [1m 
+							insert into fishes(name)
+							values ('чуларка')
+						[0m
+  [1m[35m (288.2ms)[0m   
+								insert into catched_fishes(fish_id, fishing_id)
+								select id, '34' as fishing_id from fishes
+								where
+								name='чуларка'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from baits
+						where name = 'мотыль'[0m
+  [1m[35m (141.1ms)[0m   
+								insert into used_baits(bait_id, fishing_id)
+								select id, '34' as fishing_id from baits
+								where
+								name='мотыль'
+							
+  [1m[36m (0.0ms)[0m  [1m 
+						select 1 from places
+						where name = 'Морвокзал'[0m
+  [1m[35m (187.1ms)[0m   
+								insert into visited_places(place_id, fishing_id, [order])
+								select id, '34' as fishing_id, '1' as [order] from places
+								where
+								name='Морвокзал'
+							
+Completed 200 OK in 1101ms (Views: 0.0ms | ActiveRecord: 1092.8ms)

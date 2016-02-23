@@ -85,8 +85,6 @@
 	      url: 'add_fishing/add_fishing?start_date='+$('#start_date').val() + '&end_date='+$('#end_date').val() + '&total_weight=' + $('#total_weight').val(),
 	      success: function (data, textStatus, jqXHR) {  
 	      	add_other(data);
-	      	// add_other(data, 'baits');
-	      	// add_other(data, 'places');
 	      },
 	      error: function (jqXHR, textStatus, errorThrown) {
 	        document.innerHTML = "Ошибка! Нет данных или проблемы с соединением: "+textStatus;
