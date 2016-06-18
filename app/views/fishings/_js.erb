@@ -3,8 +3,7 @@
 <script>
   window.markers =[];
   var monthNames = ["Янв", "Фев", "Мар", "Апр", "Май", "Июн",
-    "Июл", "Авг", "Сен", "Окт", "Ноя", "Дек"
-  ];
+    "Июл", "Авг", "Сен", "Окт", "Ноя", "Дек" ];
   $( "#timeslider" ).slider();
   window.map;
   infoWindow = new google.maps.InfoWindow();
@@ -15,13 +14,34 @@
       center: new google.maps.LatLng(45, 39),
       zoom: 10,
       disableDefaultUI: true,
+      navigationControl: false,
+      mapTypeControl: false,
+      scaleControl: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
     map = new google.maps.Map(mapCanvas, mapOptions);
     addmarkers();
+    $('#play_button').click(function () {
+      // for (var i = val; i <= max; i++) {
+        max = $('#timeslider').slider('option', 'max');
+        window.slide = setInterval(function(){
+          val = $('#timeslider').slider('option', 'value');
+          if (max >= val) {
+            $('#timeslider').slider('option', 'value', val+1)
+          }
+          else {
+            clearInterval(slide);
+          }
+          // console.log(i);
+          // $('#timeslider').slider('option', 'value',i)
+        }, 1000);
 
-   
-    
+
+        // setTimeout(function() {
+        //   $('#timeslider').slider('option', 'value',i)
+        // }, 1000);
+      // };
+    })
   }
   google.maps.event.addDomListener(window, 'load', initialize);
 
