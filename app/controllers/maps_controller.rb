@@ -14,4 +14,9 @@ class MapsController < ApplicationController
   	@result = Map.get_fishings()
     render json: @result
   end
+
+  def get_fishing_chart_data
+    @result = Map.get_fishing_chart_data(params[:fishing])
+    render json: @result
+  end
 end

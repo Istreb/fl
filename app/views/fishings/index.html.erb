@@ -5,6 +5,21 @@
 	  </div>
 	  <div id="r80">
 	    <div id="map"></div>
+	    <table id='timetable'>
+	    	<tr>
+	    		<td width='5%'>
+	    			<button id='play_button' class='btn'>
+	    			</button>
+	    		</td>
+	    		<td width='75%' align='right' id='timeslider_td'>
+	    			<div id='timeslider'></div>
+	    		</td>
+	    	</tr>
+	    </table>
+		<input id='date_from'></input>
+		<input id='date_to'></input>
 	  </div>
 	</div>
 <%= render partial: 'js' %>
+<%= render partial: 'css' %>
+<%= render partial: 'cluster_chart' %>

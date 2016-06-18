@@ -2,6 +2,10 @@
 
 <script>
   window.markers =[];
+  var monthNames = ["Янв", "Фев", "Мар", "Апр", "Май", "Июн",
+    "Июл", "Авг", "Сен", "Окт", "Ноя", "Дек"
+  ];
+  $( "#timeslider" ).slider();
   window.map;
   infoWindow = new google.maps.InfoWindow();
 
@@ -10,10 +14,13 @@
     var mapOptions = {
       center: new google.maps.LatLng(45, 39),
       zoom: 10,
+      disableDefaultUI: true,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
     map = new google.maps.Map(mapCanvas, mapOptions);
     addmarkers();
+
+   
     
   }
   google.maps.event.addDomListener(window, 'load', initialize);
@@ -26,17 +33,38 @@
       dataType: 'json',
       url: 'get_fishings',
       success: function (data, textStatus, jqXHR) {  
-        for (var i = 0; i < data.length; i++) {
-          var myLatlng = new google.maps.LatLng(data[i].latitude,data[i].longitude);
+        for (var i = 0; i < data.places.length; i++) {
+          var myLatlng = new google.maps.LatLng(data.places[i].latitude,data.places[i].longitude);
           var marker = new google.maps.Marker({
             position: myLatlng,
-            title:data[i].name,
-            map : map
+            title:data.places[i].name,
+            params: {
+              place: data.places[i].place_id,
+              fishing: data.places[i].fishing_id,
+              date_from: data.places[i].date_from,
+              date_to: data.places[i].date_to,
+              total_fishes: data.places[i].total_fishes,
+              total_weight: data.places[i].total_weight,
+              locality: data.places[i].locality,
+              name: data.places[i].name
+            }//,
+            // map : map
           });
           markers.push(marker);
           google.maps.event.addListener(markers[markers.length-1], 'click', showMarkerInfo);
-        };
-        var markerCluster = new MarkerClusterer(map, markers);
+        }
+        $( "#timeslider" ).slider({
+          change: function( event, ui ) {
+            slide_time();
+            show_markers();
+          }
+        });
+        $( "#timeslider" ).slider('option','min', 0);
+        $( "#timeslider" ).slider('option','max', data.dates[0].cnt);
+        $( "#timeslider" ).slider('option','step', 1);
+        $('#timeslider').slider('option', 'change')();
+          
+        // var markerCluster = new MarkerClusterer(map, markers);
       },
       error: function (jqXHR, textStatus, errorThrown) {
         document.innerHTML = "Ошибка! Нет данных или проблемы с соединением: "+textStatus;
@@ -44,8 +72,40 @@
     });
   }
 
+  function slide_time (slider) {
+    slider_text = '';
+    var months = Number($("#timeslider").slider("option","value"));
+    var first_date = new Date(markers[0].params.date_from);
+    first_date.setMonth(first_date.getMonth() + months);
+    $('#date_from').val(first_date);
+    slider_text += monthNames[first_date.getMonth()] + ' ' + first_date.getFullYear()
+    first_date.setMonth(first_date.getMonth() + 12);
+    $('#date_to').val(first_date);
+    slider_text += ' - ' + monthNames[first_date.getMonth()] + ' ' + first_date.getFullYear()
+    // first_date = first_date.substring(8,2) + first_date.substring(5,2) + first_date.substring(0,4);
+    // var last_date = String(Number(markers[0].params.date_from.substring(0, 4))+1)+markers[0].params.date_from.substring(4, markers[0].params.date_from.length);
+    // last_date = last_date.substring(8,2) + last_date.substring(5,2) + last_date.substring(0,4);
+    $("#timeslider").find(".ui-slider-handle").text(slider_text);
+  }
+
+  function show_markers () {
+    slider_date_from = new Date($('#date_from').val());
+    slider_date_to = new Date($('#date_to').val());
+    $.each(markers, function (index, marker) {
+      marker_date_from = new Date(markers[index].params.date_from)
+      marker_date_to = new Date(markers[index].params.date_to)
+      if (marker_date_to < slider_date_from || marker_date_from > slider_date_to){
+        if (markers[index].map != null) { marker.setMap(null) }
+      }
+      else {
+        if (markers[index].map != map) { marker.setMap(map) };
+      }
+    });
+  }
+
   function showMarkerInfo(event) {
     // showInfoWindow(this,event.latLng);
+    get_data_for_info(this);
     var contentString = $('#cluster_chart').html();
     contentString = contentString.replace('null', '');
     infoWindow.setContent(contentString);
@@ -53,57 +113,53 @@
 
 
     infoWindow.open(map);
-    paintChart(this);
   }
 
-  function paintChart() {
-    $('#chart').highcharts({
-        title: {
-            text: 'Monthly Average Temperature',
-            x: -20 //center
-        },
-        subtitle: {
-            text: 'Source: WorldClimate.com',
-            x: -20
-        },
-        xAxis: {
-            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-                'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-        },
-        yAxis: {
-            title: {
-                text: 'Temperature (°C)'
-            },
-            plotLines: [{
-                value: 0,
-                width: 1,
-                color: '#808080'
-            }]
-        },
-        tooltip: {
-            valueSuffix: '°C'
-        },
-        legend: {
-            layout: 'vertical',
-            align: 'right',
-            verticalAlign: 'middle',
-            borderWidth: 0
-        },
-        series: [{
-            name: 'Tokyo',
-            data: [7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
-        }, {
-            name: 'New York',
-            data: [-0.2, 0.8, 5.7, 11.3, 17.0, 22.0, 24.8, 24.1, 20.1, 14.1, 8.6, 2.5]
-        }, {
-            name: 'Berlin',
-            data: [-0.9, 0.6, 3.5, 8.4, 13.5, 17.0, 18.6, 17.9, 14.3, 9.0, 3.9, 1.0]
-        }, {
-            name: 'London',
-            data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
-        }]
+  function get_data_for_info(place) {
+    $.ajax(
+    {
+      type: "GET",
+      dataType: 'json',
+      url: 'get_fishing_chart_data?fishing='+place.params.fishing,
+      success: function (data, textStatus, jqXHR) {  
+        fishstring = ''
+        $.each(data.fishes, function (index, value) {
+          if (fishstring !='') {fishstring +=', '};
+          fishstring +=value.fish_name;
+          if (value.description || value.cnt || value.weight || value.bait_name) { 
+            fishstring_add = '(' 
+            if (value.description) {fishstring_add += value.description}
+            if (value.cnt) {
+              if (fishstring_add != '(') {fishstring_add += ', '};
+              fishstring_add += value.cnt
+            }
+            if (value.weight) {
+              if (fishstring_add != '(') {fishstring_add += ', '};
+              fishstring_add += value.weight
+            }
+            if (value.bait_name) {
+              if (fishstring_add != '(') {fishstring_add += ', '};
+              fishstring_add += value.bait_name
+            }
+            fishstring_add += ')'
+            fishstring += fishstring_add;
+          };
+        });
+        baitstring = '';
+        $.each(data.baits, function (index, value) {
+          if (baitstring !='') {baitstring +=', '};
+          baitstring += value.name
+          if (value.description) { baitstring += '(' + value.description +')' };
+        });
+
+        $('#info_name').text(place.params.name);
+        $('#info_locality').text(place.params.locality);
+        $('#info_dates').text(place.params.date_from + ' - ' + place.params.date_to);
+        $('#info_baits').text(baitstring);
+        $('#info_fishes').text(fishstring);
+        $('#info_total_weight').text(place.params.total_weight + 'кг');
+      }
     });
   }
-
 </script>
 

@@ -18,6 +18,7 @@ Rails.application.routes.draw do
   get '/map' => 'maps#index'
   get '/get_places' => 'maps#get_places'
   get '/get_fishings' => 'maps#get_fishings'
+  get '/get_fishing_chart_data' => 'maps#get_fishing_chart_data'
   get '/fishings' => 'fishings#index'
   # get '/add_fishing' => 'add_fishing#index'
   # post 'add_fishing' => 'add_fishing#add_fishing'

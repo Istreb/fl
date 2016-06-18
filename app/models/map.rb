@@ -7,10 +7,140 @@ class Map < ActiveRecord::Base
 		return result
 	end
 
+	def self.get_fishing_chart_data(fishing)
+		results = {}
+		sql = """
+			select
+			  f.name as fish_name,
+			  cf.description,
+			  cf.cnt,
+			  cf.weight,
+			  b.name as bait_name
+			from 
+			  catched_fishes cf
+			left join
+			  fishes f
+			on
+			  cf.fish_id = f.id
+			left join
+			  baits b
+			on
+			  cf.bait_id = b.id
+			where
+			  fishing_id = '" + fishing + "'
+		"""
+		results["fishes"] = Map.connection.select_all(sql)
+
+		sql = """
+			select 
+			    b.name,
+			    ub.description
+			  from
+			    used_baits ub
+			  left join
+			    baits b
+			  on
+			    ub.bait_id = b.id
+			  where
+			    ub.fishing_id = '" + fishing + "'
+		"""
+		results["baits"] = Map.connection.select_all(sql)
+
+
+		# results = {}
+		# sql = """
+		# 	with ids as (
+		# 	  select 
+		# 	    id as fishing_id
+		# 	  from
+		# 	    fishings
+		# 	  where
+		# 	    id in (
+		# 	      select 
+		# 	        distinct fishing_id
+		# 	      from 
+		# 	        visited_places
+		# 	      where 
+		# 	        place_id=8
+		# 	    )
+		# 	)
+		# 	select 
+		# 	  fns.date_from,
+		# 	  fns.date_to,
+		# 	  fns.total_weight
+		# 	from 
+		# 	  (
+		# 	    select
+		# 	      id,
+		# 	      date_from,
+		# 	      date_to,
+		# 	      total_weight
+		# 	    from
+		# 	      fishings f 
+		# 	    where
+		# 	      id in (select * from ids)
+		# 	  ) fns 
+		# """
+		# results["weight"] = Map.connection.select_all(sql)
+
+		# sql = """
+		# 	with ids as (
+		# 	  select 
+		# 	    id as fishing_id
+		# 	  from
+		# 	    fishings
+		# 	  where
+		# 	    id in (
+		# 	      select 
+		# 	        distinct fishing_id
+		# 	      from 
+		# 	        visited_places
+		# 	      where 
+		# 	        place_id=8
+		# 	    )
+		# 	)
+		# 	select 
+		# 	  distinct fs.name,
+		# 	sum(  fs.cnt) 
+
+		# 	from 
+		# 	  (
+		# 	    select 
+		# 	      cf.fishing_id,
+		# 	      case 
+		# 	        when cf.cnt is null then 1
+		# 	        else cf.cnt 
+		# 	      end as cnt,
+		# 	      cf.weight,
+		# 	      cf.bait_id,
+		# 	      f.name,
+		# 	      f.decsription
+		# 	    from 
+		# 	      catched_fishes cf
+		# 	    left join
+		# 	      fishes f
+		# 	    on
+		# 	      cf.fish_id = f.id
+		# 	    where
+		# 	      fishing_id in (select * from ids)
+		# 	  ) fs
+		# 	group by
+		# 	  fs.name
+
+		# """
+		# results["fishes"] = Map.connection.select_all(sql)
+
+
+		return results
+	end
+
 	def self.get_fishings
+		results = {}
 		sql = """ 
 			select 
 				pp.name,
+				f.id as fishing_id,
+				pp.id as place_id,
 				f.date_from,
 				f.date_to,
 				f.total_fishes,
@@ -29,8 +159,13 @@ class Map < ActiveRecord::Base
 			on
 				p.place_id = pp.id
 		"""
-		result = Map.connection.select_all(sql)
-		return result
+		results["places"] = Map.connection.select_all(sql)
+
+		sql = """ 
+			SELECT CAST ((julianday('2014-06-06') - julianday('2008-03-08')) / 30 AS integer)-13 AS cnt;
+		"""
+		results["dates"] = Map.connection.select_all(sql)
+		return results
 	end
 
 	def self.get_uniq(table)
