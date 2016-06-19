@@ -186,6 +186,76 @@ class Map < ActiveRecord::Base
 		return id
 	end
 
+	def self.get_place_details(place)
+		results = {}
+		sql = """
+			select 
+				date_from,
+				total_weight
+			from
+				fishings
+			where
+				id in (
+			    	select fishing_id from visited_places where place_id="+place+"
+				)
+			order by
+				date_from
+		"""
+		results["weight"] = Map.connection.select_all(sql)
+		sql = """
+			select 
+			  f.date_from,
+			  fs.name,
+			  case when cf.cnt is null then 1 else cf.cnt end cnt
+			from
+			  fishings f
+			left join
+			  catched_fishes cf
+			on
+			  f.id = cf.fishing_id
+			left join
+			  fishes fs
+			on
+			 cf.fish_id = fs.id
+			where
+			  f.id in (
+			     select fishing_id from visited_places where place_id="+place+"
+			  )
+			order by
+			  f.date_from
+		"""
+		results["fish_date"] = Map.connection.select_all(sql)
+		sql = """
+			select 
+			  distinct name,
+			  sum(cnt) as cnt
+			from
+			(
+			select 
+			  b.name,
+			  '1' as cnt
+			from
+			  fishings f
+			left join
+			  used_baits ub
+			on
+			  f.id = ub.fishing_id
+			left join
+			  baits b
+			on
+			 ub.bait_id = b.id
+			where
+			  f.id in (
+			     select fishing_id from visited_places where place_id="+place+"
+			  )
+			)
+			group by
+			  name
+		"""
+		results["bait"] = Map.connection.select_all(sql)
+		return results
+	end
+
 	def self.add_other(params)
 		# проверить наличие рыб, если нет добавить
 		types = Hash.new

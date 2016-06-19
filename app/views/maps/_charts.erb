@@ -1,8 +1,22 @@
 <script id='cluster_chart' language="text">
   <div id='cluster_chart'>
     <table>
-      <tr><td><div id='chart' style='min-width: 550px; height: 350px; margin: 0 auto'></div></td></tr>
-      
+      <tr>
+      	<td >
+      		<div id='weight_chart' style='min-width: 550px; height: 350px; margin: 0 auto;'></div>
+      		<div id='fish_chart'   style='min-width: 550px; height: 350px; margin: 0 auto; display:none'></div>
+      		<div id='bait_chart'   style='min-width: 550px; height: 350px; margin: 0 auto; display:none'></div>
+      	</td>
+      </tr>
+      <tr>
+      	<td align='center'>
+      		<div class="btn-group">
+			  <button type="button" class="chart_type btn btn-primary" id='weight' onclick='change_chart_type(this)'>Вес</button>
+			  <button type="button" class="chart_type btn btn-default" id='fish' onclick='change_chart_type(this)'>Рыбы</button>
+			  <button type="button" class="chart_type btn btn-default" id='bait' onclick='change_chart_type(this)'>Наживки</button>
+			</div>
+      	</td>
+      </tr>
     </table>
   </div>
 
